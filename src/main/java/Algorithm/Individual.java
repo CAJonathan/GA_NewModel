@@ -4,6 +4,7 @@ import Utilities.Factors;
 import Utilities.GAUtils.CrossoverFactory;
 import Utilities.GAUtils.FitnessFactory;
 import Utilities.GAUtils.MutationFactory;
+import Utilities.Utils;
 import org.javatuples.Pair;
 import java.util.*;
 
@@ -47,18 +48,8 @@ public class Individual {
         int numOfGene = chromosome.size();
         Random rand = new Random();
         int wall = rand.nextInt(numOfGene);
-        ReverseGeneSegment(0, wall - 1);
-        ReverseGeneSegment(wall, numOfGene - 1);
-    }
-    private void ReverseGeneSegment( int start, int end) {
-        int i = start;
-        int j = end;
-
-        while(i < j) {
-            Collections.swap(chromosome, i, j);
-            i ++;
-            j --;
-        }
+        chromosome = Utils.Reverse(chromosome, 0, wall - 1);
+        chromosome = Utils.Reverse(chromosome, wall, numOfGene - 1);
     }
 
     public Pair<Individual, Individual> crossover(Individual partner){

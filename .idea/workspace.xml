@@ -2,78 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/CrossoverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/FitnessFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n20-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n30-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n40-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n20-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n30-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n40-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n20-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n30-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n40-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u20-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u30-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u40-high.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n20-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n30-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n40-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n20-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n30-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n40-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n20-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n30-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n40-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u20-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u30-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u40-low.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n20-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n30-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n40-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n20-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n30-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n40-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n20-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n30-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n40-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u20-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u30-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u40-medium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Result/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Population.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Population.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/att_48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dantzig42_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/five_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/kn57_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/qa194.tsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/situation2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wi29.tsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/xqf131.tsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Individual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Population.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/att_48.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dantzig42_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/five_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kn57_d.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/qa194.tsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/situation2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wi29.tsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/xqf131.tsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,11 +20,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="345">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#euclideDistance#0;class#Utils#0" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Individual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Individual#1;class#Individual#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,14 +106,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/situation2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/CrossoverFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/FitnessFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Population.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Result/result.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" />
       </list>
     </option>
   </component>
@@ -153,10 +125,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
+    <option name="x" value="992" />
     <option name="y" value="-4" />
     <option name="width" value="928" />
-    <option name="height" value="1084" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,7 +137,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,15 +144,74 @@
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -208,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Utils">
     <configuration name="Individual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.Individual" />
       <module name="GA_NewModel" />
@@ -251,8 +281,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Utils" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Individual" />
       </list>
     </recent_temporary>
@@ -271,9 +301,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18186843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19347706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,7 +318,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31276152" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28870293" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
@@ -372,16 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/situation2-r.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/situation2.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/abc" />
@@ -398,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding>
-            <element signature="method#euclideDistance#0;class#Utils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n30-medium.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -419,17 +430,6 @@
             <element signature="imports" expanded="true" />
             <element signature="method#fitness#0;class#FitnessFactory#0" />
             <element signature="method#fitness1#0;class#FitnessFactory#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Individual#1;class#Individual#0" />
           </folding>
         </state>
       </provider>
@@ -477,10 +477,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n20-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Individual#1;class#Individual#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="345">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#euclideDistance#0;class#Utils#0" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

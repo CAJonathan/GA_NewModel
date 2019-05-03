@@ -21,7 +21,7 @@ public class Factors {
     public static String INPUTFILE_PATH_TO_DATA_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/";
     public static String INPUTFILE_REMAINING_ENERGY_PREFIX = "High_energy/";
     public static String INPUTFILE_DISTRIBUTED_PREFIX = "normal_distribution/";
-    public static String INPUTFILE_NAME = "s2-n40-high.txt";
+    public static String INPUTFILE_NAME = "u40-high.txt";
 
     public static String OUTPUT_PATH_TO_RESULT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/";
     public static String OUTPUTFILE_NAME = "result.txt";
