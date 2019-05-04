@@ -19,13 +19,13 @@ public class Factors {
     public static int GA_CHOSEN_MUTATION_FUNCTION = 1;
 
 
-    public static String REMAINING_ENERGY_PREFIX = "Low_energy/";
+    public static String REMAINING_ENERGY_PREFIX = "Medium_energy/";
     public static String DISTRIBUTED_PREFIX = "uniform_distribution/";
 
     public static String INPUTFILE_PATH_TO_DATA_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/";
     public static String OUTPUT_PATH_TO_RESULT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/";
-    public static String INPUTFILE_NAME = "u100-low.txt";
-    public static String OUTPUTFILE_NAME = "u100-low-result.txt";
+    public static String INPUTFILE_NAME = "u100-medium.txt";
+    public static String OUTPUTFILE_NAME = "u100-medium-result.txt";
 
     public static double ALPHA = 0.5;
     public static double K = 0.002;

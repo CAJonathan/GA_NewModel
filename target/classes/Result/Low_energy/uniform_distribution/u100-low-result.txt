@@ -3,7 +3,7 @@ Moving time: 36.60 67.93 206.19 221.96 243.52 275.85 313.87 343.37 380.23 393.75
 Fitness: 2943.11
 Average fitness: 3153.70
 Alpha: 0.50
-K: 0.002
+K: 0.00
 Crossover probability: 0.50
 Mutation probability: 0.10
 Change mutation operator probability: 0.15

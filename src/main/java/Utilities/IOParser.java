@@ -62,19 +62,19 @@ public class IOParser {
             writer.write(String.format("%.2f",time) + " ");
         }
 
-        writer.write("\nFitness: " + individual.getFitnessScore());
+        writer.write("\nFitness: " + String.format("%.2f", individual.getFitnessScore()));
 
-        writer.write("\nAverage fitness: " + avgFitness);
+        writer.write("\nAverage fitness: " + String.format("%.2f", avgFitness));
 
-        writer.write("\nAlpha: " + Factors.ALPHA);
+        writer.write("\nAlpha: " + String.format("%.2f", Factors.ALPHA));
 
-        writer.write("\nK: " + Factors.K);
+        writer.write("\nK: " + String.format("%.2f", Factors.K));
 
-        writer.write("\nCrossover probability: " + Factors.GA_CROSSOVER_PROBABILITY);
+        writer.write("\nCrossover probability: " + String.format("%.2f", Factors.GA_CROSSOVER_PROBABILITY));
 
-        writer.write("\nMutation probability: " + Factors.GA_MUTATION_PROBABILITY);
+        writer.write("\nMutation probability: " + String.format("%.2f", Factors.GA_MUTATION_PROBABILITY));
 
-        writer.write("\nChange mutation operator probability: " + Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY);
+        writer.write("\nChange mutation operator probability: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY));
 
         writer.close();
     }
