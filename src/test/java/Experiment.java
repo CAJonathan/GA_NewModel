@@ -26,7 +26,7 @@ public class Experiment {
             Individual bestInd = individuals.get(0);
 
             IOParser parser = new IOParser();
-            String outputFilePath = Factors.OUTPUT_PATH_TO_RESULT_FOLDER + Factors.OUTPUTFILE_NAME;
+            String outputFilePath = Factors.OUTPUT_PATH_TO_RESULT_FOLDER + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTED_PREFIX + Factors.OUTPUTFILE_NAME;
             parser.output(bestInd, avgFitness, outputFilePath);
         } catch(Exception e){
             e.printStackTrace();

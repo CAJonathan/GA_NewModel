@@ -1,0 +1,9 @@
+10 20 9 4 18 2 12 6 5 8 1 15 14 7 16 13 3 17 11 19 
+Moving time: 146.71 198.84 217.32 260.79 310.85 331.74 369.19 426.07 505.05 563.83 571.25 593.66 615.56 636.26 651.12 701.59 756.90 769.50 782.80 800.35 933.84 
+Fitness: 846.6983063417
+Average fitness: 863.08144180629
+Alpha: 0.5
+K: 0.002
+Crossover probability: 0.5
+Mutation probability: 0.1
+Change mutation operator probability: 0.15
