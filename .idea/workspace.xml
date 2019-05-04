@@ -2,10 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/FixedData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n100-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n70-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n80-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n90-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n100-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n70-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n80-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s2-n90-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n100-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n70-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n80-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n90-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u100-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u70-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u80-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u90-high.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n100-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n70-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n80-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n90-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n100-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n70-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n80-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n90-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n100-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n70-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n80-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n90-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u100-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u70-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u80-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u90-low.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n100-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n70-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n80-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n90-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n100-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n70-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n80-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n90-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n100-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n70-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n80-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n90-medium.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Experiment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n30-high.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s3-n30-high.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u30-high.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u30-high.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u20-low.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u20-low.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u30-low.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u30-low.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Algorithm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/High_energy/normal_distribution/s3-n30-high.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/High_energy/normal_distribution/s3-n30-high.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/High_energy/uniform_distribution/u30-high.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/High_energy/uniform_distribution/u30-high.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Low_energy/uniform_distribution/u20-low.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/Low_energy/uniform_distribution/u20-low.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Low_energy/uniform_distribution/u30-low.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Data/Low_energy/uniform_distribution/u30-low.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/IOParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/IOParser.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,52 +82,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u40-medium.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#euclideDistance#0;class#Utils#0" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Individual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Individual#1;class#Individual#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u70-medium.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,13 +129,23 @@
         <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/CrossoverFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/FitnessFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Population.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Result/result.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/GAUtils/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Experiment.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/Low_energy/uniform_distribution/u100-low.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n100-high.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n70-low.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n90-low.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n100-low.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u90-low.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u100-low.txt" />
       </list>
     </option>
   </component>
@@ -125,10 +157,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="992" />
+    <option name="x" value="65" />
     <option name="y" value="-4" />
     <option name="width" value="928" />
-    <option name="height" value="1048" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,28 +233,133 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="normal_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="uniform_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Low_energy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Low_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="normal_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Low_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="uniform_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium_energy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="normal_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="uniform_distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Result/Medium_energy" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Result/Low_energy" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/Result" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/High_energy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -238,7 +374,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Utils">
+  <component name="RunManager" selected="Application.Experiment">
+    <configuration name="Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Experiment" />
+      <module name="GA_NewModel" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Individual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.Individual" />
       <module name="GA_NewModel" />
@@ -278,11 +422,13 @@
       <item itemvalue="Application.Individual" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Utils" />
+      <item itemvalue="Application.Experiment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Utils" />
+        <item itemvalue="Application.Experiment" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Utils" />
         <item itemvalue="Application.Individual" />
       </list>
     </recent_temporary>
@@ -302,9 +448,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19347706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19568823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,15 +458,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5282427" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26464435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30543932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28870293" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28800857" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32925585" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,157 +514,240 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Algorithm/Main.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xqf131.tsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/qa194.tsp" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u90-high.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/High_energy/uniform_distribution/u100-high.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-539">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Bestpath.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/BestPath.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ChargingTime.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/My_Exception.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="434" selection-start-line="434" selection-end-line="434" />
-          <folding>
-            <element signature="e#15586#15587#0" expanded="true" />
-            <element signature="e#15631#15632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/situation2-r.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/situation2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/abc" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/High_energy/normal_distribution/s1-n20-high.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n20-low.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/CrossoverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n30-medium.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n30-low.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/FitnessFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n40-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n70-low.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#fitness#0;class#FitnessFactory#0" />
-            <element signature="method#fitness1#0;class#FitnessFactory#0" />
-          </folding>
+        <state relative-caret-position="-15">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Population.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n80-low.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#parentsSelection#0;class#Population#0" />
-            <element signature="method#naturalSelection#0;class#Population#0" />
-            <element signature="e#3037#3038#0" expanded="true" />
-            <element signature="e#3077#3078#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n90-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/result.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s1-n100-low.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n20-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n30-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n40-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n70-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n80-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n90-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s2-n100-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/IOParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n20-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n30-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n40-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n70-low.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initDistanceMatrixWithPointsSetData#0;class#IOParser#0" />
-            <element signature="method#readPointsSetData#0;class#IOParser#0" />
-          </folding>
+        <state relative-caret-position="-464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n80-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n90-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/normal_distribution/s3-n100-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u20-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u30-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u40-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u70-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u80-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u90-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Low_energy/uniform_distribution/u100-low.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="31">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n20-medium.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GAUtils/MutationFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n30-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n40-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n70-medium.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-14" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Individual.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n80-medium.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Individual#1;class#Individual#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n90-medium.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
-        </state>
+        <state relative-caret-position="-720" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s1-n100-medium.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#euclideDistance#0;class#Utils#0" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-914" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n20-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n70-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n80-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n90-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n100-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n70-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n80-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n90-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s3-n100-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u80-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u90-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u100-medium.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u40-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u70-medium.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

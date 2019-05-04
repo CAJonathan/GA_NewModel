@@ -45,6 +45,40 @@ public class IOParser {
         writer.close();
     }
 
+    public void output(Individual individual, double avgFitness, String filePath) throws IOException{
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
+
+        ArrayList<Integer> path = individual.getChromosome();
+        for(Integer sensor : path){
+            writer.write(sensor + " ");
+        }
+
+        writer.write("\nMoving time: ");
+        double time = 0;
+        for(int i = 0 ; i < path.size() + 1 ; i ++){
+            int current = i >= path.size() ? 0 : path.get(i);
+            int prev = i == 0 ? 0 : path.get(i - 1);
+            time += Main.distances[prev][current] / Factors.WCE_V;
+            writer.write(String.format("%.2f",time) + " ");
+        }
+
+        writer.write("\nFitness: " + individual.getFitnessScore());
+
+        writer.write("\nAverage fitness: " + avgFitness);
+
+        writer.write("\nAlpha: " + Factors.ALPHA);
+
+        writer.write("\nK: " + Factors.K);
+
+        writer.write("\nCrossover probability: " + Factors.GA_CROSSOVER_PROBABILITY);
+
+        writer.write("\nMutation probability: " + Factors.GA_MUTATION_PROBABILITY);
+
+        writer.write("\nChange mutation operator probability: " + Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY);
+
+        writer.close();
+    }
+
     public double[][] initDistanceMatrixWithPointsSetData(String filePath) throws IOException{
         ArrayList<Pair<Double, Double>> pointsSet = readPointsSetData(filePath);
         int numOfNode = Factors.NUM_OF_SENSORS + 1;
