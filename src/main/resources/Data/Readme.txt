@@ -7,3 +7,22 @@ Data described as belows:
    E_min
    WCE_V
    WCE_U
+3. Data Directory structure
+   /
+   /Data/Normal_distribution_energy /High_energy   /normal_distribution_location /*.txt
+                                                   /uniform_distribution_location/*.txt
+                                    /Low_energy    /normal_distribution_location /*.txt
+                                                   /uniform_distribution_location/*.txt
+                                    /Medium_energy /normal_distribution_location /*.txt
+                                                   /uniform_distribution_location/*.txt
+        /Uniform_distribution_energy/normal_distribution_location /*.txt
+                                    /uniform_distribution_location/*.txt
+
+   /Image/Normal_distribution_energy /High_energy   /normal_distribution_location /*.png
+                                                    /uniform_distribution_location/*.png
+                                     /Low_energy    /normal_distribution_location /*.png
+                                                    /uniform_distribution_location/*.png
+                                     /Medium_energy /normal_distribution_location /*.png
+                                                    /uniform_distribution_location/*.png
+         /Uniform_distribution_energy/normal_distribution_location /*.png
+                                     /uniform_distribution_location/*.png
