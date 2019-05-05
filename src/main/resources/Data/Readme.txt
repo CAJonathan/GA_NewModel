@@ -7,6 +7,7 @@ Data described as belows:
    E_min
    WCE_V
    WCE_U
+   WCE_P_MOVE
 3. Data Directory structure
    /
    /Data/Normal_distribution_energy /High_energy   /normal_distribution_location /*.txt

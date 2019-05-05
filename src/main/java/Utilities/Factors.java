@@ -19,19 +19,21 @@ public class Factors {
     public static int GA_CHOSEN_MUTATION_FUNCTION = 1;
 
 
-    public static String REMAINING_ENERGY_PREFIX = "Medium_energy/";
-    public static String DISTRIBUTED_PREFIX = "uniform_distribution/";
+    public static String DISTRIBUTION_ENERGY_PREFIX = "Normal_distribution_energy/";
+    public static String REMAINING_ENERGY_PREFIX = "High_energy/";
+    public static String DISTRIBUTION_LOCATION_PREFIX = "normal_distribution_location/";
 
     public static String INPUTFILE_PATH_TO_DATA_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/";
     public static String OUTPUT_PATH_TO_RESULT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/";
-    public static String INPUTFILE_NAME = "u100-medium.txt";
-    public static String OUTPUTFILE_NAME = "u100-medium-result.txt";
+    public static String INPUTFILE_NAME = "s1-n100-high.txt";
+    public static String OUTPUTFILE_NAME = "s1-n100-high-result.txt";
 
     public static double ALPHA = 0.5;
     public static double K = 0.002;
 
     public static double WCE_V = 5;
     public static double WCE_U = 5;
+    public static double WCE_P_MOVE = 1;
     public static double SERVICE_STATION_X = 0;
     public static double SERVICE_STATION_Y = 0;
 
