@@ -15,6 +15,9 @@ public class Utils {
         String[] fileExtracted = filePath.split("/");
         String fileName = fileExtracted[fileExtracted.length - 1];
         String[] fileNameParts = fileName.split("-");
+        if(fileNameParts.length < 2){
+            fileNameParts = fileName.split("\\.");
+        }
         int numberPart = fileNameParts.length > 2 ? 1 : 0;
         String numOfSensorStr = fileNameParts[numberPart].substring(1);
         int numOfSensor = Integer.parseInt(numOfSensorStr);

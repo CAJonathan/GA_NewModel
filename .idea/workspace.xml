@@ -1,86 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java" line="28" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppendData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/IOParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u30-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u30-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u40-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u40-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/Factors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/IOParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/IOParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +24,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="344">
               <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Experiment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -132,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n80-medium.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/normal_distribution/s2-n100-medium.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u30-medium.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Medium_energy/uniform_distribution/u80-medium.txt" />
@@ -182,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" />
         <option value="$PROJECT_DIR$/src/test/java/AppendData.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-result.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/Factors.java" />
       </list>
     </option>
@@ -230,57 +165,7 @@
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -297,7 +182,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -306,39 +191,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="High_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
               <item name="uniform_distribution_location" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="Low_energy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Normal_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="Medium_energy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -480,7 +334,7 @@
     <frame x="65" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37301588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30839002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,12 +343,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27262932" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24892241" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2801724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49895397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32217574" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31171548" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
@@ -549,46 +403,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low-result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/Low_energy/uniform_distribution_location/u70-low-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Normal_distribution_energy/Low_energy/uniform_distribution_location/u70-low.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/image/Normal_distribution_energy/a.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Normal_distribution_energy/a.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Uniform_distribution_energy/normal_distribution_location/n20-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Uniform_distribution_energy/normal_distribution_location/n20-near.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -747,20 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/IOParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -818,9 +618,51 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high-result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/IOParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/uniform_distribution_location/u20-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Factors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="344">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
