@@ -7,3 +7,4 @@ K: 0.002
 Crossover probability: 0.5
 Mutation probability: 0.1
 Change mutation operator probability: 0.15
+Consumpted moving energy: 113.27 217.12 262.98 271.36 293.01 319.91 368.17 455.37 526.55 578.69 626.71 663.66 694.67 719.51 767.40 791.82 852.65 927.76 968.38 1017.11 1178.92 

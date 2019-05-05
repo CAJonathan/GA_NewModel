@@ -53,13 +53,13 @@ public class IOParser {
             writer.write(sensor + " ");
         }
 
-        writer.write("\n{Moving time - Consumpted moving energy}: ");
+        writer.write("\nMoving time: ");
         double time = 0;
         for(int i = 0 ; i < path.size() + 1 ; i ++){
             int current = i >= path.size() ? 0 : path.get(i);
             int prev = i == 0 ? 0 : path.get(i - 1);
             time += Main.distances[prev][current] / Factors.WCE_V;
-            writer.write(String.format("(%.2f - %.2f)",time, time * Factors.WCE_P_MOVE) + ", ");
+            writer.write(String.format("%.2f",time) + " ");
         }
 
         writer.write("\nFitness: " + String.format("%.2f", individual.getFitnessScore()));
