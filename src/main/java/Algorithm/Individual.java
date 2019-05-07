@@ -37,23 +37,11 @@ public class Individual {
         return fitnessScore;
     }
 
-    public void normalMutate() {
-        Random rand = new Random();
-        int f = rand.nextInt(chromosome.size());
-        int s = rand.nextInt(chromosome.size());
-
-        Collections.swap(chromosome, f, s);
-    }
-    public void cimMutate() {
-        int numOfGene = chromosome.size();
-        Random rand = new Random();
-        int wall = rand.nextInt(numOfGene);
-        chromosome = Utils.Reverse(chromosome, 0, wall - 1);
-        chromosome = Utils.Reverse(chromosome, wall, numOfGene - 1);
+    public void mutate(){
+        chromosome = MutationFactory.mutate(chromosome);
     }
 
     public Pair<Individual, Individual> crossover(Individual partner){
-        Individual dad = this;
         return CrossoverFactory.crossover(this, partner);
     }
 

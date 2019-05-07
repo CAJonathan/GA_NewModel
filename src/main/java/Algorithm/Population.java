@@ -68,13 +68,7 @@ public class Population {
     public void mutate(double probability, double changeMutationOperator) {
         Random rand = new Random();
         for(int i = 0 ; i < individuals.size() ; i ++) {
-            if(rand.nextDouble() < probability){
-                if(rand.nextDouble() < changeMutationOperator){
-                    individuals.get(i).cimMutate();
-                } else{
-                    individuals.get(i).normalMutate();
-                }
-            }
+            individuals.get(i).mutate();
         }
     }
 
