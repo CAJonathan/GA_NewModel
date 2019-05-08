@@ -1,18 +1,25 @@
 package Utilities.GAUtils;
 
+/**
+ * @author cajonathan
+ * @param chromosome - individual's chromosome
+ * @return Mutated chromosome
+ */
+
 import Utilities.Factors;
 import Utilities.Utils;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class MutationFactory {
 
     public static ArrayList<Integer> mutate(ArrayList<Integer> chromosome){
         switch (Factors.GA_CHOSEN_MUTATION_FUNCTION){
-            case 1:{
+
+            default:{
                 return cimMutate(chromosome);
             }
 
@@ -20,17 +27,16 @@ public class MutationFactory {
                 return normalMutate(chromosome);
             }
 
-            default:{
-                Random rand = new Random();
-                if(rand.nextDouble() < Factors.GA_MUTATION_PROBABILITY){
-                    if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY){
-                        return cimMutate(chromosome);
-                    } else{
-                        return normalMutate(chromosome);
-                    }
-                } else{
-                    return chromosome;
-                }
+            case 3:{
+                return mixedMutate1(chromosome);
+            }
+
+            case 4:{
+                return shufflenMutate(chromosome);
+            }
+
+            case 5:{
+                return mixedMutate2(chromosome);
             }
         }
     }
@@ -53,6 +59,37 @@ public class MutationFactory {
         Collections.swap(chromosome, f, s);
 
         return chromosome;
+    }
+
+    private static ArrayList<Integer> mixedMutate1(ArrayList<Integer> chromosome){
+        Random rand = new Random();
+        if(rand.nextDouble() < Factors.GA_MUTATION_PROBABILITY){
+            if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY1){
+                return cimMutate(chromosome);
+            } else{
+                return normalMutate(chromosome);
+            }
+        } else{
+            return chromosome;
+        }
+    }
+
+    private static ArrayList<Integer> shufflenMutate(ArrayList<Integer> chromosome){
+        Collections.shuffle(chromosome);
+        return chromosome;
+    }
+
+    private static ArrayList<Integer> mixedMutate2(ArrayList<Integer> chromosome){
+        Random rand = new Random();
+        if(rand.nextDouble() < Factors.GA_MUTATION_PROBABILITY){
+            if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2){
+                return shufflenMutate(chromosome);
+            } else{
+                return mixedMutate1(chromosome);
+            }
+        } else{
+            return chromosome;
+        }
     }
 
 }

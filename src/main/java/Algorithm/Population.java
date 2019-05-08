@@ -6,16 +6,15 @@ import java.util.List;
 import java.util.Random;
 
 import Utilities.Factors;
+import Utilities.GAUtils.NaturalSelectionFactory;
 import org.javatuples.Pair;
 
 public class Population {
 
     private ArrayList<Individual> individuals = new ArrayList<>();
-    private int populationSize;
 
     public Population() {
-        populationSize = Factors.GA_POPULATION_SIZE;
-        for(int i = 0 ; i < populationSize ; i ++) {
+        for(int i = 0 ; i < Factors.GA_POPULATION_SIZE ; i ++) {
             Individual item = new Individual(Factors.NUM_OF_SENSORS);
             individuals.add(item);
         }
@@ -30,11 +29,11 @@ public class Population {
         Collections.sort(indGroup, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
     }
 
-    public void crossOver(double probability) {
-        List<Pair<Individual, Individual>> parentPairs = parentsSelection(populationSize/2);
+    public void crossover() {
+        List<Pair<Individual, Individual>> parentPairs = parentsSelection(Factors.GA_PARENTS_PAIR_SIZE);
         Random rand = new Random();
         for(Pair<Individual, Individual> parent : parentPairs) {
-            if(rand.nextDouble() < probability){
+            if(rand.nextDouble() < Factors.GA_CROSSOVER_PROBABILITY){
                 Individual dad = parent.getValue0();
                 Individual mom = parent.getValue1();
 
@@ -49,7 +48,7 @@ public class Population {
         Random rand = new Random();
         List<Pair<Individual, Individual>> listOfParents = new ArrayList<>();
         for(int i = 0 ; i < numOfPair ; i ++){
-            Integer[] indexOfSelectedIndividual = rand.ints(0, populationSize)
+            Integer[] indexOfSelectedIndividual = rand.ints(0, Factors.GA_POPULATION_SIZE)
                     .boxed()
                     .distinct()
                     .limit(Factors.GA_TOURNAMENT_SIZE)
@@ -65,18 +64,14 @@ public class Population {
         return listOfParents;
     }
 
-    public void mutate(double probability, double changeMutationOperator) {
-        Random rand = new Random();
+    public void mutate() {
         for(int i = 0 ; i < individuals.size() ; i ++) {
             individuals.get(i).mutate();
         }
     }
 
     public void naturalSelection() {
-        int len = populationSize;
-        while(individuals.size() > len) {
-            individuals.remove(individuals.size() - 1);
-        }
+        individuals = NaturalSelectionFactory.naturalSelection(individuals);
     }
 
     public Individual bestSolution(){

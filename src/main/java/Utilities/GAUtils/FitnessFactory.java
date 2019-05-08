@@ -1,5 +1,11 @@
 package Utilities.GAUtils;
 
+/**
+ * @author cajonathan
+ * @param chromosome - individual's chromosome
+ * @return fitness score
+ */
+
 import Algorithm.Main;
 import Utilities.Factors;
 
@@ -10,16 +16,16 @@ public class FitnessFactory {
     public static double fitness(ArrayList<Integer> chromosome){
         switch (Factors.GA_CHOSEN_FITNESS_FUNCTION){
 
+            default:{
+                return fitness1(chromosome);
+            }
+
             case 2:{
                 return fitness2(chromosome);
             }
 
             case 3:{
                 return fitness3(chromosome);
-            }
-
-            default:{
-                return fitness1(chromosome);
             }
         }
     }
@@ -36,12 +42,6 @@ public class FitnessFactory {
         return fitnessScore;
     }
 
-
-    /**
-     * @author cajonathan
-     * @param chromosome - individual's chromosome
-     * @return fitness score
-     */
     private static double fitness2(ArrayList<Integer> chromosome){
         double fitnessScore = 0.0;
         int numOfGenes = chromosome.size();
@@ -58,11 +58,6 @@ public class FitnessFactory {
         return fitnessScore;
     }
 
-    /**
-     * @author cajonathan
-     * @param chromosome - individual's chromosome
-     * @return fitness score
-     */
     private static double fitness3(ArrayList<Integer> chromosome){
         double fitnessScore = 0.0;
         int numOfGenes = chromosome.size();

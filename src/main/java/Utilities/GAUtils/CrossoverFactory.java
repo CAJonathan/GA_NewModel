@@ -1,5 +1,11 @@
 package Utilities.GAUtils;
 
+/**
+ * @author cajonathan
+ * @param chromosomes - one belongs to dad, the other belongs to mom
+ * @return Two chromosomes represent offspring
+ */
+
 import Algorithm.Individual;
 import Utilities.Factors;
 import org.javatuples.Pair;
@@ -12,11 +18,16 @@ public class CrossoverFactory {
 
     public static Pair<Individual, Individual> crossover(Individual indDad, Individual indMom){
         switch (Factors.GA_CHOSEN_CROSSOVER_FUNCTION){
+            default: {
+                return circleCrossover(indDad, indMom);
+            }
+
             case 2:{
                 return simpleCrossover(indDad, indMom);
             }
-            default: {
-                return circleCrossover(indDad, indMom);
+
+            case 3:{
+                return mixedCrossover1(indDad, indMom);
             }
         }
     }
@@ -98,5 +109,14 @@ public class CrossoverFactory {
         }
 
         return new Pair<>(new Individual(Arrays.asList(child1)), new Individual(Arrays.asList(child2)));
+    }
+
+    private static Pair<Individual, Individual> mixedCrossover1(Individual indDad, Individual indMom){
+        Random rand = new Random();
+        if(rand.nextDouble() < Factors.GA_CHANGE_CROSSOVER_OPERATION_PROBABILITY1){
+            return circleCrossover(indDad, indMom);
+        } else{
+            return simpleCrossover(indDad, indMom);
+        }
     }
 }

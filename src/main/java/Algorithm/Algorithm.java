@@ -16,8 +16,8 @@ public class Algorithm {
 
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {
-            population.crossOver(Factors.GA_CROSSOVER_PROBABILITY);
-            population.mutate(Factors.GA_MUTATION_PROBABILITY, Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY);
+            population.crossover();
+            population.mutate();
             population.sort();
             population.naturalSelection();
         }

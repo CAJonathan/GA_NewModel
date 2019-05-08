@@ -40,7 +40,9 @@ public class IOParser {
 
         writer.write("\nMutation probability: " + Factors.GA_MUTATION_PROBABILITY);
 
-        writer.write("\nChange mutation operator probability: " + Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY);
+        writer.write("\nChange mutation operator probability 1: " + Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY1);
+
+        writer.write("\nChange mutation operator probability 2: " + Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2);
 
         writer.close();
     }
@@ -74,7 +76,9 @@ public class IOParser {
 
         writer.write("\nMutation probability: " + String.format("%.2f", Factors.GA_MUTATION_PROBABILITY));
 
-        writer.write("\nChange mutation operator probability: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY));
+        writer.write("\nChange mutation operator probability 1: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY1));
+
+        writer.write("\nChange mutation operator probability 2: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2));
 
         writer.close();
     }

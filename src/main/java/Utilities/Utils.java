@@ -25,7 +25,6 @@ public class Utils {
         return numOfSensor;
     }
 
-
     public static ArrayList<Integer> Reverse(ArrayList<Integer> chromosome, int start, int end) {
         int i = start;
         int j = end;
