@@ -1,10 +1,4 @@
-package Utilities.GAUtils;
-
-/**
- * @author cajonathan
- * @param chromosome - individual's chromosome
- * @return Mutated chromosome
- */
+package Algorithm.GAUtils;
 
 import Utilities.Factors;
 import Utilities.Utils;
@@ -12,10 +6,14 @@ import Utilities.Utils;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
-import java.util.stream.Collectors;
 
 public class MutationFactory {
 
+    /**
+     * @author cajonathan
+     * @param chromosome - individual's chromosome
+     * @return Mutated chromosome
+     */
     public static ArrayList<Integer> mutate(ArrayList<Integer> chromosome){
         switch (Factors.GA_CHOSEN_MUTATION_FUNCTION){
 

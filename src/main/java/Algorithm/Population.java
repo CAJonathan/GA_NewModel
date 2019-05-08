@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 import Utilities.Factors;
-import Utilities.GAUtils.NaturalSelectionFactory;
+import Algorithm.GAUtils.NaturalSelectionFactory;
 import org.javatuples.Pair;
 
 public class Population {

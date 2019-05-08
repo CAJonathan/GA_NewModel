@@ -1,10 +1,8 @@
 package Algorithm;
 
-import Utilities.Factors;
-import Utilities.GAUtils.CrossoverFactory;
-import Utilities.GAUtils.FitnessFactory;
-import Utilities.GAUtils.MutationFactory;
-import Utilities.Utils;
+import Algorithm.GAUtils.CrossoverFactory;
+import Algorithm.GAUtils.FitnessFactory;
+import Algorithm.GAUtils.MutationFactory;
 import org.javatuples.Pair;
 import java.util.*;
 

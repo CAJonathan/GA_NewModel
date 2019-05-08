@@ -1,5 +1,7 @@
 package Algorithm;
 
+import Algorithm.Algorithm;
+
 import java.io.IOException;
 
 public class Main {

@@ -1,10 +1,4 @@
-package Utilities.GAUtils;
-
-/**
- * @author cajonathan
- * @param chromosome - individual's chromosome
- * @return fitness score
- */
+package Algorithm.GAUtils;
 
 import Algorithm.Main;
 import Utilities.Factors;
@@ -13,6 +7,11 @@ import java.util.ArrayList;
 
 public class FitnessFactory {
 
+    /**
+     * @author cajonathan
+     * @param chromosome - individual's chromosome
+     * @return fitness score
+     */
     public static double fitness(ArrayList<Integer> chromosome){
         switch (Factors.GA_CHOSEN_FITNESS_FUNCTION){
 

@@ -1,4 +1,3 @@
-import Algorithm.Main;
 import Utilities.Factors;
 import Utilities.IOParser;
 

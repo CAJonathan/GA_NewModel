@@ -1,13 +1,18 @@
-package Utilities.GAUtils;
+package Algorithm.GAUtils;
 
 import Algorithm.Individual;
 import Utilities.Factors;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 public class NaturalSelectionFactory {
+
+    /**
+     * @author cajonathan
+     * @param individuals - individuals
+     * @return Selected individuals
+     */
     public static ArrayList<Individual> naturalSelection(ArrayList<Individual> individuals){
         switch (Factors.GA_CHOSEN_NATURAL_SELECTION_FUNCTION){
             default:{

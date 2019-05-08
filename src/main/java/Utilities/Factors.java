@@ -33,6 +33,8 @@ public class Factors {
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3, 4, 5
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
 
+
+
     // Determine data file and result file
     public static String INPUTFILE_PATH_TO_DATA_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/";
     public static String OUTPUT_PATH_TO_RESULT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/TestResult/";
@@ -43,6 +45,8 @@ public class Factors {
 
     public static String INPUTFILE_NAME = "s3-n70-low.txt";
     public static String OUTPUTFILE_NAME = "s3-n70-low-result.txt";
+
+
 
     // Fixed factors in WRSN
     public static double WCE_V = 5;

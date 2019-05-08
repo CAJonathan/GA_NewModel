@@ -1,10 +1,4 @@
-package Utilities.GAUtils;
-
-/**
- * @author cajonathan
- * @param chromosomes - one belongs to dad, the other belongs to mom
- * @return Two chromosomes represent offspring
- */
+package Algorithm.GAUtils;
 
 import Algorithm.Individual;
 import Utilities.Factors;
@@ -14,8 +8,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
+
 public class CrossoverFactory {
 
+    /**
+     * @author cajonathan
+     * @param indDad - dad
+     * @param indMom - mom
+     * @return Two chromosomes represent offspring
+     */
     public static Pair<Individual, Individual> crossover(Individual indDad, Individual indMom){
         switch (Factors.GA_CHOSEN_CROSSOVER_FUNCTION){
             default: {
@@ -89,8 +90,7 @@ public class CrossoverFactory {
         }
 
         for(int i = cuttingPoint ; i < numOfGene ; i ++){
-            for(int j = 0 ; j < numOfGene ; j ++){
-                int gene1 = mom.get(j);
+            for(Integer gene1 : mom){
                 if(!visited1[gene1]){
                     child1[i] = gene1;
                     visited1[gene1] = true;
@@ -98,8 +98,7 @@ public class CrossoverFactory {
                 }
             }
 
-            for(int j = 0 ; j < numOfGene ; j ++){
-                int gene2 = dad.get(j);
+            for(Integer gene2 : dad){
                 if(!visited2[gene2]){
                     child2[i] = gene2;
                     visited2[gene2] = true;
