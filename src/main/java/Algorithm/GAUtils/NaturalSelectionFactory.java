@@ -39,23 +39,6 @@ public class NaturalSelectionFactory {
             Random rand = new Random();
 
             double guideline = rand.nextDouble() * rottleWheel[size];
-//            int start = 0;
-//            int end = size;
-//            int middle = (start + end) >> 1;
-//            do{
-//                if(guideline > rottleWheel[middle + 1]){
-//                    start = middle;
-//                    middle = (start + end) >> 1;
-//                } else if(guideline < rottleWheel[middle]){
-//                    end = middle;
-//                    middle = (start + end) >> 1;
-//                }
-//            }while(!(guideline >= rottleWheel[middle] && guideline <= rottleWheel[middle + 1]));
-//            Scanner sc = new Scanner(System.in);
-//            if(middle + 1 == size){
-//                System.out.println();
-//                int a = sc.nextInt();
-//            }
             for(int i = 1 ; i < rottleWheel.length ; i ++){
                 if(rottleWheel[i] > guideline){
                     chosenIndividuals.add(individuals.remove(i - 1));

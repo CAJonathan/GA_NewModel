@@ -11,7 +11,12 @@ public class Algorithm {
 
     public void solve() throws IOException {
         IOParser parser = new IOParser();
-        String inputFilePath = Factors.INPUTFILE_PATH_TO_DATA_FOLDER + Factors.DISTRIBUTION_ENERGY_PREFIX + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTION_LOCATION_PREFIX + Factors.INPUTFILE_NAME;
+        String inputFilePath = Factors.PATH_TO_RESOURCE +
+                                Factors.INPUT_FOLDER +
+                                Factors.DISTRIBUTION_ENERGY_PREFIX +
+                                Factors.REMAINING_ENERGY_PREFIX +
+                                Factors.DISTRIBUTION_LOCATION_PREFIX +
+                                Factors.INPUTFILE_NAME;
         Main.distances = parser.initDistanceMatrixWithPointsSetData(inputFilePath);
 
         Population population = new Population();
