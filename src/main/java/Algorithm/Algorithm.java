@@ -14,7 +14,7 @@ public class Algorithm {
         String inputFilePath = Factors.PATH_TO_RESOURCE +
                                 Factors.INPUT_FOLDER +
                                 Factors.DISTRIBUTION_ENERGY_PREFIX +
-                                Factors.REMAINING_ENERGY_PREFIX +
+                                (Factors.DISTRIBUTION_ENERGY_PREFIX.contains("Normal") ? Factors.REMAINING_ENERGY_PREFIX : "") +
                                 Factors.DISTRIBUTION_LOCATION_PREFIX +
                                 Factors.INPUT_FILE_NAME;
         Main.distances = parser.initDistanceMatrixWithPointsSetData(inputFilePath);
