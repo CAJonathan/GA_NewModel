@@ -20,8 +20,8 @@ public class AppendData {
     }
 
     public static void main(String[] args) throws IOException{
-        String dataFilePath = Factors.PATH_TO_RESOURCE + Factors.INPUT_FOLDER + Factors.DISTRIBUTION_ENERGY_PREFIX + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTION_LOCATION_PREFIX + Factors.INPUTFILE_NAME;
-        String resultFilePath = Factors.PATH_TO_RESOURCE + Factors.OUTPUT_FOLDER + Factors.DISTRIBUTION_ENERGY_PREFIX + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTION_LOCATION_PREFIX + Factors.OUTPUTFILE_NAME;
+        String dataFilePath = Factors.PATH_TO_RESOURCE + Factors.INPUT_FOLDER + Factors.DISTRIBUTION_ENERGY_PREFIX + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTION_LOCATION_PREFIX + Factors.INPUT_FILE_NAME;
+        String resultFilePath = Factors.PATH_TO_RESOURCE + Factors.OUTPUT_FOLDER + Factors.DISTRIBUTION_ENERGY_PREFIX + Factors.REMAINING_ENERGY_PREFIX + Factors.DISTRIBUTION_LOCATION_PREFIX + Factors.OUTPUT_FILE_NAME;
         List<Integer> path = readPath(resultFilePath);
         List<Double> consumptedMovingEnergy = new ArrayList<>();
         IOParser parser = new IOParser();

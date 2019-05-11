@@ -90,7 +90,7 @@ public class FitnessFactory {
             double distance = Main.distances[previous][current];
             time += distance / Factors.WCE_V;
 
-            double remainingEnergy = Factors.REMAINING_ENERGIES.get(current) - Factors.SENSOR_Emin - Factors.WCE_V * time;
+            double remainingEnergy = Factors.REMAINING_ENERGIES.get(current) - Factors.SENSOR_Emin - Factors.P.get(current) * time;
             if(remainingEnergy < 0){
                 return Double.MAX_VALUE;
             } else{

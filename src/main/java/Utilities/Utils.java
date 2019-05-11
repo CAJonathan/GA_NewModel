@@ -39,6 +39,6 @@ public class Utils {
     }
 
     public static void main(String[] args){
-        System.out.println(extractFilePath(Factors.INPUTFILE_NAME));
+        System.out.println(extractFilePath(Factors.INPUT_FILE_NAME));
     }
 }

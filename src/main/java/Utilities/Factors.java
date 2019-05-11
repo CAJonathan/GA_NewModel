@@ -38,6 +38,7 @@ public class Factors {
     public static String DISTRIBUTION_LOCATION_PREFIX = "normal_distribution_location/";
     private static String SCENARIO_INDEX = "s3-";
     private static String SIZE = "30";
+    private static String SENSOR_LOCATION_INDEX = "-far";
     // =================================================================================================
 
 
@@ -53,8 +54,11 @@ public class Factors {
     public static String PATH_TO_RESOURCE = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/";
     private static String DISTRIBUTION_LOCATION_INDEX = Character.toString(DISTRIBUTION_LOCATION_PREFIX.toLowerCase().charAt(0));
     private static String REMAINING_ENERGY_INDEX = "-" + REMAINING_ENERGY_PREFIX.split("_")[0].toLowerCase();
-    public static String INPUTFILE_NAME = SCENARIO_INDEX + DISTRIBUTION_LOCATION_INDEX + SIZE + REMAINING_ENERGY_INDEX  + ".txt";
-    public static String OUTPUTFILE_NAME = SCENARIO_INDEX + DISTRIBUTION_LOCATION_INDEX + SIZE + REMAINING_ENERGY_INDEX + "-result.txt";
+    private static String FILE_NAME = DISTRIBUTION_LOCATION_INDEX.equals("n") ?
+            SCENARIO_INDEX + DISTRIBUTION_LOCATION_INDEX + SIZE + REMAINING_ENERGY_INDEX
+            : DISTRIBUTION_LOCATION_INDEX + SIZE + SENSOR_LOCATION_INDEX;
+    public static String INPUT_FILE_NAME =  FILE_NAME + ".txt";
+    public static String OUTPUT_FILE_NAME = FILE_NAME + "-result.txt";
 
     // Fixed factors in WRSN
     public static double WCE_V = 5;
