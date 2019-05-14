@@ -8,16 +8,15 @@ import java.io.IOException;
 public class Algorithm {
 
     private Individual bestIndividual;
+    private Factors factors;
+
+    public Algorithm(Factors factors){
+        this.factors = factors;
+    }
 
     public void solve() throws IOException {
         IOParser parser = new IOParser();
-        String inputFilePath = Factors.PATH_TO_RESOURCE +
-                                Factors.INPUT_FOLDER +
-                                Factors.DISTRIBUTION_ENERGY_PREFIX +
-                                (Factors.DISTRIBUTION_ENERGY_PREFIX.contains("Normal") ? Factors.REMAINING_ENERGY_PREFIX : "") +
-                                Factors.DISTRIBUTION_LOCATION_PREFIX +
-                                Factors.INPUT_FILE_NAME;
-        Main.distances = parser.initDistanceMatrixWithPointsSetData(inputFilePath);
+        Main.distances = parser.initDistanceMatrixWithPointsSetData();
 
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {

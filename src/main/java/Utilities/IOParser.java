@@ -83,7 +83,9 @@ public class IOParser {
         writer.close();
     }
 
-    public double[][] initDistanceMatrixWithPointsSetData(String filePath) throws IOException{
+    public double[][] initDistanceMatrixWithPointsSetData() throws IOException{
+        Factors factors = new Factors();
+        String filePath = factors.inputFilePath();
         ArrayList<Pair<Double, Double>> pointsSet = readPointsSetData(filePath);
         int numOfNode = Factors.NUM_OF_SENSORS + 1;
         double [][] distances = new double[numOfNode][numOfNode];

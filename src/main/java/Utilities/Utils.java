@@ -2,6 +2,7 @@ package Utilities;
 
 import org.javatuples.Pair;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -38,7 +39,27 @@ public class Utils {
         return chromosome;
     }
 
+    public static void createDataBin(String rootFolderName){
+        String dataFolder = Factors.PATH_TO_RESOURCE + "/" + rootFolderName + "/";
+        File f1 = new File(dataFolder + "Normal_distribution_energy/High_energy/normal_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Normal_distribution_energy/High_energy/uniform_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Normal_distribution_energy/Medium_energy/normal_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Normal_distribution_energy/Medium_energy/uniform_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Normal_distribution_energy/Low_energy/normal_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Normal_distribution_energy/Low_energy/uniform_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Uniform_distribution_energy/normal_distribution_location");
+        f1.mkdirs();
+        f1 = new File(dataFolder + "Uniform_distribution_energy/uniform_distribution_location");
+        f1.mkdirs();
+    }
+
     public static void main(String[] args){
-        System.out.println(extractFilePath(Factors.INPUT_FILE_NAME));
+        createDataBin("Result3");
     }
 }

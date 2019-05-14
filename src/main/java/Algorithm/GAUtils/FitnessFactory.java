@@ -34,6 +34,10 @@ public class FitnessFactory {
             case 5:{
                 return fitness5(chromosome);
             }
+
+            case 6:{
+                return fitness6(chromosome);
+            }
         }
     }
 
@@ -121,6 +125,67 @@ public class FitnessFactory {
             double remainingEnergy = Factors.REMAINING_ENERGIES.get(current) - Factors.SENSOR_Emin - Factors.P.get(current) * time;
             if(remainingEnergy < 0){
                 fitnessScore += 1.0;
+            }
+        }
+
+        return fitnessScore;
+    }
+
+    private static double fitness6(ArrayList<Integer> chromosome){
+        double fitnessScore = 0.0;
+        int numOfGenes = chromosome.size();
+
+        double totalDistance = 0.0;
+        for(int i = 0 ; i < numOfGenes ; i ++){
+            int previous = i == 0 ? 0 : chromosome.get(i - 1);
+            int current = chromosome.get(i);
+            totalDistance += Main.distances[previous][current];
+        }
+
+        double tMove = (totalDistance + Main.distances[chromosome.get(numOfGenes - 1)][0]) / Factors.WCE_V;
+        double eMove =  Factors.WCE_P_MOVE * tMove;
+        double eCharge = Factors.WCE_Emc - eMove;
+        double tCharge = eCharge / Factors.WCE_U;
+
+        double T = tMove + tCharge;
+
+        double[] tChargeMinForEachSensor = new double[numOfGenes];
+        for(int i = 0 ; i < numOfGenes ; i ++){
+            int current = chromosome.get(i);
+            tChargeMinForEachSensor[i] = (T*Factors.P.get(current) - Factors.REMAINING_ENERGIES.get(current) + Factors.SENSOR_Emin) / (Factors.WCE_U - Factors.P.get(current));
+        }
+
+        double time = 0.0;
+        for(int i = 0 ; i < numOfGenes ; i ++){
+            int previous = i == 0 ? 0 : chromosome.get(i - 1);
+            int current = chromosome.get(i);
+            double distance = Main.distances[previous][current];
+            time += distance / Factors.WCE_V;
+
+            double remainingEnergy = Factors.REMAINING_ENERGIES.get(current)- Factors.P.get(current) * time;
+            if(remainingEnergy < Factors.SENSOR_Emin){
+                if(i > 0){
+                    int idx = 0;
+                    double max = 0.0;
+                    for(int j = 0 ; j < i ; j ++){
+                        if(tChargeMinForEachSensor[j] > max){
+                            max = tChargeMinForEachSensor[j];
+                            idx = j;
+                        }
+                    }
+
+                    if(max > tChargeMinForEachSensor[i]){
+                        double timeTmp = time - max;
+                        double remainingEnergyTmp = Factors.REMAINING_ENERGIES.get(current) - Factors.P.get(current) * timeTmp;
+                        if(remainingEnergyTmp >= Factors.SENSOR_Emin){
+                            time = time - max + tChargeMinForEachSensor[i];
+                            tChargeMinForEachSensor[idx] = 0;
+                        }
+                    }
+                }
+                fitnessScore ++;
+            } else{
+                time += tChargeMinForEachSensor[i];
             }
         }
 
