@@ -16,7 +16,7 @@ public class Experiment {
     public static int LOOP = 30;
 
     public static void main(String[] args){
-//        Utils.createDataBin("Result3");
+//        Utils.createDataBin("ResultTest");
         run();
     }
 

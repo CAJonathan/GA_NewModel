@@ -32,7 +32,7 @@ public class Factors {
 
     // Choosing data scenarios
     public static String INPUT_FOLDER = "Data/";
-    public static String OUTPUT_FOLDER = "Result3/";
+    public static String OUTPUT_FOLDER = "ResultTest/";
     public static String DISTRIBUTION_ENERGY_PREFIX = "Uniform_distribution_energy/";
     public static String REMAINING_ENERGY_PREFIX = "Medium_energy/";
     public static String DISTRIBUTION_LOCATION_PREFIX = "uniform_distribution_location/";

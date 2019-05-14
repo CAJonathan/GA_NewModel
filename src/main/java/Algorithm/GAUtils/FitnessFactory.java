@@ -159,6 +159,10 @@ public class FitnessFactory {
         for(int i = 0 ; i < numOfGenes ; i ++){
             int previous = i == 0 ? 0 : chromosome.get(i - 1);
             int current = chromosome.get(i);
+            if(tChargeMinForEachSensor[i] < 0){
+                continue;
+            }
+
             double distance = Main.distances[previous][current];
             time += distance / Factors.WCE_V;
 
