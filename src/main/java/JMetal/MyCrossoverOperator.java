@@ -2,21 +2,22 @@ package JMetal;
 
 import org.uma.jmetal.operator.CrossoverOperator;
 import org.uma.jmetal.solution.PermutationSolution;
+import org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class MyCrossoverOperator implements CrossoverOperator<PermutationSolution> {
+public class MyCrossoverOperator implements CrossoverOperator<DefaultIntegerPermutationSolution> {
 
     @Override
-    public List<PermutationSolution> execute(List<PermutationSolution> permutationSolutions) {
+    public List<DefaultIntegerPermutationSolution> execute(List<DefaultIntegerPermutationSolution> permutationSolutions) {
         PermutationSolution dad = permutationSolutions.get(0);
         PermutationSolution mom = permutationSolutions.get(0);
         int numOfGene = dad.getNumberOfVariables();
 
-        PermutationSolution child1 = (PermutationSolution)dad.copy();
-        PermutationSolution child2 = (PermutationSolution)mom.copy();
+        DefaultIntegerPermutationSolution child1 = (DefaultIntegerPermutationSolution)dad.copy();
+        DefaultIntegerPermutationSolution child2 = (DefaultIntegerPermutationSolution)mom.copy();
 
         int cuttingPoint = (new Random()).nextInt(numOfGene - 2) + 1;
         boolean[] visited1 = new boolean[numOfGene + 1];
@@ -50,7 +51,7 @@ public class MyCrossoverOperator implements CrossoverOperator<PermutationSolutio
                 }
             }
         }
-        List<PermutationSolution> offspring = Arrays.asList(child1, child2);
+        List<DefaultIntegerPermutationSolution> offspring = Arrays.asList(child1, child2);
         return offspring;
     }
 
