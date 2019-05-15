@@ -2,6 +2,7 @@ package Utilities;
 
 import Algorithm.Individual;
 import Algorithm.Main;
+import Algorithm.Population;
 import org.javatuples.Pair;
 
 import java.io.BufferedWriter;
@@ -49,7 +50,7 @@ public class IOParser {
         writer.close();
     }
 
-    public void output(Individual individual, double avgFitness, double worstFitness, String filePath) throws IOException{
+    public void output(Individual individual, double avgFitness, Individual worstInd, String filePath) throws IOException{
         BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
 
         ArrayList<Integer> path = individual.getChromosome();
@@ -57,16 +58,66 @@ public class IOParser {
             writer.write(sensor + " ");
         }
 
-        writer.write("\nMoving time: ");
-        double time = 0;
-        for(int i = 0 ; i < path.size() + 1 ; i ++){
-            int current = i >= path.size() ? 0 : path.get(i);
-            int prev = i == 0 ? 0 : path.get(i - 1);
-            time += Main.distances[prev][current] / Factors.WCE_V;
-            writer.write(String.format("%.2f",time) + " ");
-        }
+//        writer.write("\nMoving time: ");
+//        double time = 0;
+//        for(int i = 0 ; i < path.size() + 1 ; i ++){
+//            int current = i >= path.size() ? 0 : path.get(i);
+//            int prev = i == 0 ? 0 : path.get(i - 1);
+//            time += Main.distances[prev][current] / Factors.WCE_V;
+//            writer.write(String.format("%.2f",time) + " ");
+//        }
 
         writer.write("\nBest fitness: " + String.format("%.2f", individual.getFitnessScore()));
+
+        ArrayList<Integer> worst = worstInd.getChromosome();
+        for(Integer sensor : worst){
+            writer.write(sensor + " ");
+        }
+
+        writer.write("\nWorst fitness: " + worstInd.getFitnessScore());
+
+        writer.write("\nAverage fitness: " + String.format("%.2f", avgFitness));
+
+        writer.write("\nAlpha: " + String.format("%.2f", Factors.ALPHA));
+
+        writer.write("\nK: " + String.format("%.2f", Factors.K));
+
+        writer.write("\nCrossover probability: " + String.format("%.2f", Factors.GA_CROSSOVER_PROBABILITY));
+
+        writer.write("\nMutation probability: " + String.format("%.2f", Factors.GA_MUTATION_PROBABILITY));
+
+        writer.write("\nChange mutation operator probability 1: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY1));
+
+        writer.write("\nChange mutation operator probability 2: " + String.format("%.2f", Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2));
+
+        writer.close();
+    }
+
+
+
+    public void output(Population population, double avgFitness, double worstFitness, String filePath) throws IOException{
+        BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
+
+        ArrayList<Individual> inds = population.getIndividuals();
+        for(int i = 0 ; i < 5 ; i ++){
+            writer.write(String.format("%.2f",inds.get(i).getFitnessScore()) + " ");
+        }
+        writer.write("\n\n");
+        for(int i = inds.size() - 1 ; i < inds.size() - 6 ; i --){
+            writer.write(String.format("%.2f",inds.get(i).getFitnessScore()) + " ");
+        }
+
+
+//        writer.write("\nMoving time: ");
+//        double time = 0;
+//        for(int i = 0 ; i < path.size() + 1 ; i ++){
+//            int current = i >= path.size() ? 0 : path.get(i);
+//            int prev = i == 0 ? 0 : path.get(i - 1);
+//            time += Main.distances[prev][current] / Factors.WCE_V;
+//            writer.write(String.format("%.2f",time) + " ");
+//        }
+
+        writer.write("\nBest fitness: " + String.format("%.2f", inds.get(0).getFitnessScore()));
 
         writer.write("\nWorst fitness: " + worstFitness);
 

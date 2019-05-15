@@ -24,21 +24,24 @@ public class Experiment {
         Factors factors = new Factors();
         Algorithm ag = new Algorithm(factors);
         try{
-            List<Individual> individuals = new ArrayList<>();
+            List<Individual> goodIndividuals = new ArrayList<>();
+            List<Individual> badIndividuals = new ArrayList<>();
 
             for(int i = 0 ; i < LOOP ; i ++){
                 ag.solve();
-                individuals.add(ag.getSolution());
+                goodIndividuals.add(ag.getSolution());
+                badIndividuals.add(ag.getBadSolution());
             }
 
-            double avgFitness = individuals.stream().mapToDouble(ind -> ind.getFitnessScore()).sum() / individuals.size();
-            Collections.sort(individuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
-            Individual bestInd = individuals.get(0);
-            Individual worstInd = individuals.get(individuals.size() - 1);
+            double avgFitness = goodIndividuals.stream().mapToDouble(ind -> ind.getFitnessScore()).sum() / goodIndividuals.size();
+            Collections.sort(goodIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
+            Collections.sort(badIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
+            Individual bestInd = goodIndividuals.get(0);
+            Individual badInd = badIndividuals.get(badIndividuals.size() - 1);
 
             IOParser parser = new IOParser();
             String outputFilePath = factors.outputfilePath();
-            parser.output(bestInd, avgFitness, worstInd.getFitnessScore(), outputFilePath);
+            parser.output(bestInd, avgFitness, badInd, outputFilePath);
         } catch(Exception e){
             e.printStackTrace();
         }

@@ -37,6 +37,7 @@ public class Individual {
 
     public void mutate(){
         chromosome = MutationFactory.mutate(chromosome);
+        calculateFitnessScore();
     }
 
     public Pair<Individual, Individual> crossover(Individual partner){

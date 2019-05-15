@@ -100,7 +100,7 @@ public class FitnessFactory {
 
             double remainingEnergy = Factors.REMAINING_ENERGIES.get(current) - Factors.SENSOR_Emin - Factors.P.get(current) * time;
             if(remainingEnergy < 0){
-                return Double.MAX_VALUE;
+                fitnessScore += 10000;
             } else{
                 double sufferingTime = Factors.ALPHA * Factors.K * remainingEnergy / Factors.P.get(current);
                 double moveTime = (1 - Factors.ALPHA) * distance / Factors.WCE_V;
@@ -152,16 +152,14 @@ public class FitnessFactory {
         double[] tChargeMinForEachSensor = new double[numOfGenes];
         for(int i = 0 ; i < numOfGenes ; i ++){
             int current = chromosome.get(i);
-            tChargeMinForEachSensor[i] = (T*Factors.P.get(current) - Factors.REMAINING_ENERGIES.get(current) + Factors.SENSOR_Emin) / (Factors.WCE_U - Factors.P.get(current));
+            double tChargeTmp = (T*Factors.P.get(current) - Factors.REMAINING_ENERGIES.get(current) + Factors.SENSOR_Emin) / (Factors.WCE_U - Factors.P.get(current));
+            tChargeMinForEachSensor[i] = tChargeTmp < 0 ? 0 : tChargeTmp;
         }
 
         double time = 0.0;
         for(int i = 0 ; i < numOfGenes ; i ++){
             int previous = i == 0 ? 0 : chromosome.get(i - 1);
             int current = chromosome.get(i);
-            if(tChargeMinForEachSensor[i] < 0){
-                continue;
-            }
 
             double distance = Main.distances[previous][current];
             time += distance / Factors.WCE_V;

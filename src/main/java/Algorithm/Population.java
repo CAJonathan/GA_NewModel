@@ -78,6 +78,10 @@ public class Population {
         return individuals.get(0);
     }
 
+    public Individual badSolution(){
+        return individuals.get(individuals.size() - 1);
+    }
+
     public ArrayList<Individual> getIndividuals(){
         return individuals;
     }

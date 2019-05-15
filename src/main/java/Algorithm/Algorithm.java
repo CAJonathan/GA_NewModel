@@ -4,10 +4,13 @@ import Utilities.Factors;
 import Utilities.IOParser;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Algorithm {
 
     private Individual bestIndividual;
+    private Individual worstIndividual;
     private Factors factors;
 
     public Algorithm(Factors factors){
@@ -27,9 +30,12 @@ public class Algorithm {
         }
 
         bestIndividual = population.bestSolution();
+        worstIndividual = population.badSolution();
     }
 
     public Individual getSolution(){
         return bestIndividual;
     }
+
+    public Individual getBadSolution(){return worstIndividual;}
 }

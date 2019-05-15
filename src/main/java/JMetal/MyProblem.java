@@ -11,7 +11,7 @@ import java.io.IOException;
 public class MyProblem extends AbstractIntegerPermutationProblem {
 
     protected int numberOfSensors ;
-    protected double [][] distanceMatrix ;
+    protected double [][] distanceMatrix;
 
     public MyProblem(Integer numberOfVariables) throws IOException {
         setNumberOfVariables(numberOfVariables);

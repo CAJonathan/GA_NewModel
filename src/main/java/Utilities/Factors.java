@@ -25,7 +25,7 @@ public class Factors {
     public static double K = 0.02;
 
     // Choosing GA operators in experimentation
-    public static int GA_CHOSEN_FITNESS_FUNCTION = 6;               // values: 1, 2, 3, 4, 5, 6
+    public static int GA_CHOSEN_FITNESS_FUNCTION = 4;               // values: 1, 2, 3, 4, 5, 6
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3, 4, 5
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
@@ -37,7 +37,7 @@ public class Factors {
     public static String REMAINING_ENERGY_PREFIX = "Medium_energy/";
     public static String DISTRIBUTION_LOCATION_PREFIX = "uniform_distribution_location/";
     public static String SCENARIO_INDEX = "s1-";
-    public static String SIZE = "30";
+    public static String SIZE = "20";
     public static String SENSOR_LOCATION_INDEX = "-near";
     // =================================================================================================
 

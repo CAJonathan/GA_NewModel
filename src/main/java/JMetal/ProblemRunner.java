@@ -35,7 +35,7 @@
 //
 //        double crossoverProbability = 0.9 ;
 //        double crossoverDistributionIndex = 20.0 ;
-//        crossover = new SBXCrossover(crossoverProbability, crossoverDistributionIndex) ;
+//        crossover = new MyCrossoverOperator() ;
 //
 //        double mutationProbability = 1.0 / problem.getNumberOfVariables() ;
 //        double mutationDistributionIndex = 20.0 ;
