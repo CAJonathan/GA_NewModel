@@ -1,65 +1,66 @@
-//package JMetal;
-//
-//import Algorithm.Individual;
-//import org.javatuples.Pair;
-//import org.uma.jmetal.operator.CrossoverOperator;
-//import org.uma.jmetal.solution.PermutationSolution;
-//
-//import java.util.ArrayList;
-//import java.util.Arrays;
-//import java.util.List;
-//
-//public class MyCrossoverOperator implements CrossoverOperator<PermutationSolution> {
-//
-//    public MyCrossoverOperator(){
-//
-//    }
-//
-//    @Override
-//    public List<PermutationSolution> execute(List<PermutationSolution> permutationSolutions) {
-//        PermutationSolution dad = permutationSolutions.get(0);
-//        PermutationSolution mom = permutationSolutions.get(1);
-//
-//        int numOfGene = dad.getNumberOfVariables();
-//        Integer[] child1 = new Integer[numOfGene];
-//        Integer[] child2 = new Integer[numOfGene];
-//
-//        boolean[] isInCircle = new boolean[numOfGene];
-//        Arrays.fill(isInCircle, false);
-//        int circleIndex = 0;
-//        int circleNumber = 0;
-//        while(circleIndex < numOfGene ){
-//            while(circleIndex < numOfGene && isInCircle[circleIndex]){
-//                circleIndex ++;
-//            }
-//            if(circleIndex >= numOfGene) break;
-//            circleNumber ++;
-//
-//            int begin = (int)dad.getVariableValue(circleIndex);
-//            int currentIndex = circleIndex;
-//            int check;
-//
-//            do{
-//                check = (int)mom.getVariableValue(currentIndex);
-//                child1[currentIndex] = circleNumber % 2 == 1 ? (int)dad.getVariableValue(currentIndex) : check;
-//                child2[currentIndex] = circleNumber % 2 == 1 ? check : (int)dad.getVariableValue(currentIndex);
-//                isInCircle[currentIndex] = true;
-//                currentIndex = dad.indexOf(check);
-//            }while(check != begin);
-//        }
-//
-//        List<PermutationSolution> childs = new ArrayList<>();
-//        childs.add( )
-//        return new Pair<>(new Individual(Arrays.asList(child1)), new Individual(Arrays.asList(child2)));
-//    }
-//
-//    @Override
-//    public int getNumberOfRequiredParents() {
-//        return 2;
-//    }
-//
-//    @Override
-//    public int getNumberOfGeneratedChildren() {
-//        return 2;
-//    }
-//}
+package JMetal;
+
+import org.uma.jmetal.operator.CrossoverOperator;
+import org.uma.jmetal.solution.PermutationSolution;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
+public class MyCrossoverOperator implements CrossoverOperator<PermutationSolution> {
+
+    @Override
+    public List<PermutationSolution> execute(List<PermutationSolution> permutationSolutions) {
+        PermutationSolution dad = permutationSolutions.get(0);
+        PermutationSolution mom = permutationSolutions.get(0);
+        int numOfGene = dad.getNumberOfVariables();
+
+        PermutationSolution child1 = (PermutationSolution)dad.copy();
+        PermutationSolution child2 = (PermutationSolution)mom.copy();
+
+        int cuttingPoint = (new Random()).nextInt(numOfGene - 2) + 1;
+        boolean[] visited1 = new boolean[numOfGene + 1];
+        boolean[] visited2 = new boolean[numOfGene + 1];
+        Arrays.fill(visited1, false);
+        Arrays.fill(visited2, false);
+
+        for(int i = 0 ; i < cuttingPoint ; i ++){
+            int gene1 = (int)dad.getVariableValue(i);
+            int gene2 = (int)mom.getVariableValue(i);
+            visited1[gene1] = true;
+            visited2[gene2] = true;
+        }
+
+        for(int i = cuttingPoint ; i < numOfGene ; i ++){
+            for(int j = 0 ; j < mom.getNumberOfVariables() ; j ++){
+                int gene1 = (int)mom.getVariableValue(j);
+                if(!visited1[gene1]){
+                    child1.setVariableValue(i, gene1);
+                    visited1[gene1] = true;
+                    break;
+                }
+            }
+
+            for(int j = 0 ; j < dad.getNumberOfVariables() ; j ++){
+                int gene2 = (int)dad.getVariableValue(i);
+                if(!visited2[gene2]){
+                    child2.setVariableValue(i, gene2);
+                    visited2[gene2] = true;
+                    break;
+                }
+            }
+        }
+        List<PermutationSolution> offspring = Arrays.asList(child1, child2);
+        return offspring;
+    }
+
+    @Override
+    public int getNumberOfRequiredParents() {
+        return 2;
+    }
+
+    @Override
+    public int getNumberOfGeneratedChildren() {
+        return 2;
+    }
+}
