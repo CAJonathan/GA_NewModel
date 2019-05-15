@@ -34,10 +34,11 @@ public class Experiment {
             double avgFitness = individuals.stream().mapToDouble(ind -> ind.getFitnessScore()).sum() / individuals.size();
             Collections.sort(individuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
             Individual bestInd = individuals.get(0);
+            Individual worstInd = individuals.get(individuals.size() - 1);
 
             IOParser parser = new IOParser();
             String outputFilePath = factors.outputfilePath();
-            parser.output(bestInd, avgFitness, outputFilePath);
+            parser.output(bestInd, avgFitness, worstInd.getFitnessScore(), outputFilePath);
         } catch(Exception e){
             e.printStackTrace();
         }

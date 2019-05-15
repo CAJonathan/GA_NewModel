@@ -30,7 +30,9 @@ public class IOParser {
             writer.write(String.format("(%.2f - %.2f)",time, time * Factors.WCE_P_MOVE) + " ");
         }
 
-        writer.write("\nFitness: " + individual.getFitnessScore());
+        writer.write("\nBest fitness: " + individual.getFitnessScore());
+
+        writer.write("\nWorst fitness: " + individual.getFitnessScore());
 
         writer.write("\nAlpha: " + Factors.ALPHA);
 
@@ -47,7 +49,7 @@ public class IOParser {
         writer.close();
     }
 
-    public void output(Individual individual, double avgFitness, String filePath) throws IOException{
+    public void output(Individual individual, double avgFitness, double worstFitness, String filePath) throws IOException{
         BufferedWriter writer = new BufferedWriter(new FileWriter(filePath));
 
         ArrayList<Integer> path = individual.getChromosome();
@@ -64,7 +66,9 @@ public class IOParser {
             writer.write(String.format("%.2f",time) + " ");
         }
 
-        writer.write("\nFitness: " + String.format("%.2f", individual.getFitnessScore()));
+        writer.write("\nBest fitness: " + String.format("%.2f", individual.getFitnessScore()));
+
+        writer.write("\nWorst fitness: " + worstFitness);
 
         writer.write("\nAverage fitness: " + String.format("%.2f", avgFitness));
 
