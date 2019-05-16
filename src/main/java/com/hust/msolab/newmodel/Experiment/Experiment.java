@@ -13,20 +13,23 @@ public class Experiment {
     public static int LOOP = 30;
 
     public static void main(String[] args){
-        run();
+        run(Factors.getInputFilePath(), Factors.getOutputFilePath());
     }
 
-    public static void run(){
+    public static void run(String inputFilePath, String outputFilePath){
         Algorithm ag = new Algorithm();
         try{
             List<Individual> goodIndividuals = new ArrayList<>();
             List<Individual> badIndividuals = new ArrayList<>();
 
+            System.out.println(inputFilePath);
             for(int i = 0 ; i < LOOP ; i ++){
-                ag.solve();
+                ag.solve(inputFilePath);
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
+                System.out.print(i + " ");
             }
+            System.out.println();
 
             Collections.sort(goodIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
             Collections.sort(badIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
@@ -34,7 +37,7 @@ public class Experiment {
             Individual worstInd = badIndividuals.get(badIndividuals.size() - 1);
 
             IOParser parser = new IOParser();
-            parser.output(bestInd, worstInd);
+            parser.output(bestInd, worstInd, outputFilePath);
 
         } catch(Exception e){
             e.printStackTrace();

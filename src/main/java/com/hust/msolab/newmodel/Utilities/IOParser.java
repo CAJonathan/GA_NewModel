@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 public class IOParser {
 
-    public void output(Individual bestInd, Individual worstInd) throws IOException{
-        BufferedWriter writer = new BufferedWriter(new FileWriter(Factors.getOutputFilePath()));
+    public void output(Individual bestInd, Individual worstInd, String outputFilePath) throws IOException{
+        BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath));
 
         ArrayList<Integer> bestPath = bestInd.getChromosome();
         for(Integer sensor : bestPath){
@@ -43,8 +43,7 @@ public class IOParser {
         writer.close();
     }
 
-    public void initDistanceMatrixWithPointsSetData(String filePath = Factors) throws IOException{
-        String filePath = Factors.getInputFilePath();
+    public void initDistanceMatrixWithPointsSetData(String filePath) throws IOException{
         ArrayList<Pair<Double, Double>> pointsSet = readPointsSetData(filePath);
         int numOfNode = Factors.NUM_OF_SENSORS + 1;
         double [][] distances = new double[numOfNode][numOfNode];

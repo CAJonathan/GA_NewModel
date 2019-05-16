@@ -11,18 +11,9 @@ import java.util.stream.Collectors;
 public class Test {
 
     public static void main(String[] args) throws IOException {
-        String sourcePath = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/ResultTest";
-        executeFile(sourcePath);
-    }
+        String sourcePath = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u30.txt";
 
-    private static void executeFile(String folder){
-        File f = new File(folder);
-        for(File subFile : f.listFiles()){
-            if(subFile.isFile()){
-                System.out.println(subFile.getName());
-            } else{
-                executeFile(folder + "/" + subFile.getName());
-            }
-        }
+        String outputFilePath = sourcePath.replace("Data", "Result/" + Factors.OUTPUT_FOLDER_NAME).replace(".", "-result.");
+        System.out.println(outputFilePath);
     }
 }

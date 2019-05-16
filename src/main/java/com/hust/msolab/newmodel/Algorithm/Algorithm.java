@@ -10,9 +10,9 @@ public class Algorithm {
     private Individual bestIndividual;
     private Individual worstIndividual;
 
-    public void solve() throws IOException {
+    public void solve(String filePath) throws IOException {
         IOParser parser = new IOParser();
-        parser.initDistanceMatrixWithPointsSetData();
+        parser.initDistanceMatrixWithPointsSetData(filePath);
 
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {

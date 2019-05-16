@@ -9,7 +9,6 @@ import java.io.IOException;
 public class MyProblem extends MyAbstractSolution {
 
     protected int numberOfSensors ;
-    protected double [][] distanceMatrix;
 
     public MyProblem(Integer numberOfVariables) throws IOException {
         setNumberOfVariables(numberOfVariables);
@@ -17,7 +16,7 @@ public class MyProblem extends MyAbstractSolution {
         setName("New Model");
 
         IOParser parser = new IOParser();
-        parser.initDistanceMatrixWithPointsSetData();
+        parser.initDistanceMatrixWithPointsSetData(Factors.getInputFilePath());
         numberOfSensors = numberOfVariables;
     }
 
@@ -35,7 +34,7 @@ public class MyProblem extends MyAbstractSolution {
         int numOfGenes = solution.getNumberOfVariables();
         IOParser parser = new IOParser();
         try{
-            parser.initDistanceMatrixWithPointsSetData();
+            parser.initDistanceMatrixWithPointsSetData(Factors.getInputFilePath());
         } catch (Exception e){
             e.printStackTrace();
         }

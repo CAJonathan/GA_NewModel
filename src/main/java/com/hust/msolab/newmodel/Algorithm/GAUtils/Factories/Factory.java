@@ -58,14 +58,17 @@ public class Factory {
         switch (Factors.GA_CHOSEN_CROSSOVER_FUNCTION){
             default: {
                 crO = new CircleCrossover();
+                break;
             }
 
             case 2:{
                 crO = new SimpleCrossover();
+                break;
             }
 
             case 3:{
                 crO = new MixedCrossover();
+                break;
             }
         }
 
@@ -77,10 +80,12 @@ public class Factory {
         switch (Factors.GA_CHOSEN_MUTATION_FUNCTION){
             default:{
                 mtO = new CimMutation();
+                break;
             }
 
             case 2:{
                 mtO = new NormalMutation();
+                break;
             }
 
             case 3:{
@@ -96,6 +101,7 @@ public class Factory {
         switch (Factors.GA_CHOSEN_NATURAL_SELECTION_FUNCTION){
             default:{
                 nsO = new NormalNaturalSelection();
+                break;
             }
 
             case 2:{

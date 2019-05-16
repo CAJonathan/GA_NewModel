@@ -42,7 +42,7 @@ public class Factors {
 
     // ======================================Never make any change unless you know exactly what you're going to do===========================================
 
-    private static String PATH_TO_RESOURCE = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/";
+    public static String PATH_TO_RESOURCE = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/";
 
     // Fixed factors in WRSN
     public static double WCE_V = 5;
