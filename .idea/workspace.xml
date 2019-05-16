@@ -3,19 +3,344 @@
   <component name="ChangeListManager">
     <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/FixedData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u100-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u30-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u40-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u70-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u80-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u90-high-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u20-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u30-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u40-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u70-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u80-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u90-low-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u100-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u20-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u30-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u40-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u70-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u80-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u90-medium-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u100-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u20-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u80-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u90-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u90.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Algorithm/Algorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Algorithm/Algorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/FixedData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u100-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u30-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u40-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u70-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u80-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/High_energy/uniform_distribution_location/u90-high.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u20-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u30-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u40-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u70-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u80-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Low_energy/uniform_distribution_location/u90-low.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u100-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u20-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u30-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u40-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u70-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u80-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Normal_distribution_energy/Medium_energy/uniform_distribution_location/u90-medium.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n100-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n20-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n30-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n40-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n70-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-far-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-near-result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n90-near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u100.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u40.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u70.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u80.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u90.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Experiment/Experiment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Experiment/Experiment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Experiment/ExperimentAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Experiment/ExperimentAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/JMetal/MyProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/JMetal/MyProblem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/Factors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/IOParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/IOParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/Utilities/Utils.class" afterDir="false" />
@@ -38,31 +363,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="345">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Population.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,30 +384,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="169">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#fitness#0;class#Factory#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="240">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -189,15 +489,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Individual.java" />
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Population.java" />
         <option value="$PROJECT_DIR$/src/main/java/Experiment/Experiment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" />
       </list>
     </option>
   </component>
@@ -220,8 +520,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,208 +555,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="Crossover" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="Fitness" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="Mutation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
-              <item name="Operators" type="462c0819:PsiDirectoryNode" />
-              <item name="NaturalSelection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="normal_distribution_location" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="uniform_distribution_location" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="ResultTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="ResultTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="ResultTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="uniform_distribution_location" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -465,7 +563,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Result/ResultTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../VCCorp/DataCollection" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -607,7 +705,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2443339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20784964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -616,12 +714,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33158997" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38179916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39225942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23117155" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21861924" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
@@ -702,60 +800,24 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Test.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MySolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.6/jmetal-core-5.6-sources.jar!/org/uma/jmetal/problem/impl/AbstractIntegerPermutationProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyAbstractSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.6/jmetal-core-5.6-sources.jar!/org/uma/jmetal/solution/impl/AbstractGenericSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JMetal/Operators/abc.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JMetal/Operators/abc.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/Operators/Mutation/MyMutationOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -773,12 +835,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Operators/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Factories/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Operators/a.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Factories/a.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/OperatorInterfaces/FitnessFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -836,16 +894,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Operators/Fitness/FitnessFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="132" column="43" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/Operators/Fitness/FitnessFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/Fitness/Fitness3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -886,13 +935,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/CrossoverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="112" column="62" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/CrossoverFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/Mutation/CimMutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -934,13 +977,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/MutationFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/MutationFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/OperatorInterfaces/MutationOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -978,13 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/NaturalSelectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GAUtils/NaturalSelectionFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Individual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1009,46 +1040,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/a.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/a.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1064,24 +1064,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/uniform_distribution_location/u80.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Population.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1092,28 +1074,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="915">
           <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#fitness#0;class#Factory#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/Algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/IOParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/ResultTest/Uniform_distribution_energy/normal_distribution_location/n80-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/ExperimentAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Experiment/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>

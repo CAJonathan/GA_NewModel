@@ -1,8 +1,10 @@
 package com.hust.msolab.newmodel.Utilities;
 
+import com.hust.msolab.newmodel.Experiment.Experiment;
 import org.javatuples.Pair;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -39,7 +41,22 @@ public class Utils {
         return chromosome;
     }
 
-    public static void cloneDirectory(String src, String des){
-
+    public static void cloneDirectory(String src, String des) {
+        recursiveClone(src, src, des);
+    }
+    private static void recursiveClone(String current, String src, String des){
+        File folder = new File(current);
+        for(File subFile : folder.listFiles()){
+            if(subFile.isFile()){
+                String directory = subFile.getParent();
+                directory = directory.replace(src, des);
+                File f = new File(directory);
+                if(!f.exists()){
+                    f.mkdirs();
+                }
+            } else{
+                recursiveClone(subFile.getAbsolutePath(), src, des);
+            }
+        }
     }
 }

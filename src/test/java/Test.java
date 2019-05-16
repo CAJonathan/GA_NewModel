@@ -1,19 +1,29 @@
-import com.hust.msolab.newmodel.Utilities.Factors;
-import com.hust.msolab.newmodel.Utilities.IOParser;
-import com.sun.jmx.snmp.internal.SnmpSubSystem;
-import org.apache.commons.io.FileUtils;
-
 import java.io.*;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class Test {
+    private static String sourcePath = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data";
+    private static String destinationPath = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/ResultTest";
 
     public static void main(String[] args) throws IOException {
-        String sourcePath = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u30.txt";
 
-        String outputFilePath = sourcePath.replace("Data", "Result/" + Factors.OUTPUT_FOLDER_NAME).replace(".", "-result.");
-        System.out.println(outputFilePath);
+        clone(sourcePath, sourcePath, destinationPath);
     }
+
+    private static void clone(String current, String src, String des) throws IOException{
+        File folder = new File(current);
+        for(File subFile : folder.listFiles()){
+            if(subFile.isFile()){
+                String directory = subFile.getParent();
+                directory = directory.replace(src, des);
+                File f = new File(directory);
+                if(!f.exists()){
+                    f.mkdirs();
+                }
+            } else{
+                clone(subFile.getAbsolutePath(), src, des);
+            }
+        }
+    }
+
+
 }

@@ -6,14 +6,18 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class ExperimentAll {
 
-    public static void main(String[] args) throws IOException {
-        String inputFolder = Factors.PATH_TO_RESOURCE + Factors.INPUT_FOLDER;
-        String outputFolder = Factors.PATH_TO_RESOURCE + "Result/" + Factors.OUTPUT_FOLDER_NAME;
-        FileUtils.copyDirectory(new File(inputFolder), new File(outputFolder));
-        run(inputFolder);
+    public static void main(String[] args) throws InterruptedException{
+        Utils.cloneDirectory(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER);
+        System.out.println("Creating directory...");
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("Directory created!");
+        System.out.println("Running Experiment:");
+
+        run(Factors.INPUT_FOLDER);
     }
 
     private static void run(String dataFolder){
@@ -21,7 +25,7 @@ public class ExperimentAll {
         for(File subFile : folder.listFiles()){
             if(subFile.isFile()){
                 String inputFilePath = subFile.getAbsolutePath();
-                String outputFilePath = inputFilePath.replace("Data", "Result/" + Factors.OUTPUT_FOLDER_NAME).replace(".", "-result.");
+                String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER).replace(".", "-result.");
                 Experiment.run(inputFilePath, outputFilePath);
             } else{
                 run(dataFolder + "/" + subFile.getName());

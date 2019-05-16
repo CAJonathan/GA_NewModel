@@ -27,7 +27,7 @@ public class Experiment {
                 ag.solve(inputFilePath);
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
-                System.out.print(i + " ");
+                System.out.print("===>");
             }
             System.out.println();
 

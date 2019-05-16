@@ -24,15 +24,15 @@ public class Factors {
     public static double ALPHA = 0.5;
     public static double K = 0.01;
 
-    // Choosing GA operators in experimentation
+    // Choosing data file for all data experiment
     public static int GA_CHOSEN_FITNESS_FUNCTION = 4;               // values: 1, 2, 3, 4, 5, 6
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
 
     // Choosing data scenarios
-    public static String INPUT_FOLDER = "/Data";
-    public static String OUTPUT_FOLDER_NAME = "ResultTest";
+    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/ResultTest";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
