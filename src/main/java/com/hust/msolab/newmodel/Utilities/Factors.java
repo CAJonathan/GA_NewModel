@@ -4,6 +4,7 @@ import java.util.List;
 
 public class Factors {
 
+
     // ================================Only change for experiment=======================================
     // For genetic algorithm
     public static int GA_LOOP = 500;
@@ -24,25 +25,24 @@ public class Factors {
     public static double ALPHA = 0.5;
     public static double K = 0.01;
 
-    // Choosing data file for all data experiment
+    // Choosing GA fitness function and operators
     public static int GA_CHOSEN_FITNESS_FUNCTION = 4;               // values: 1, 2, 3, 4, 5, 6
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
 
-    // Choosing data scenarios
+    // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data";
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/ResultTest";
 
     // Choosing data file for single experiment
-    public static String INPUT_FILE_PATH = "Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
-    public static String OUTPUT_FILE_PATH = "Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
+    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
+    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt";
     // =================================================================================================
 
 
-    // ======================================Never make any change unless you know exactly what you're going to do===========================================
 
-    public static String PATH_TO_RESOURCE = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/";
+    // ======================================Never make any change unless you know exactly what you're going to do===========================================
 
     // Fixed factors in WRSN
     public static double WCE_V = 5;
@@ -53,18 +53,11 @@ public class Factors {
     public static double SERVICE_STATION_Y = 0;
     public static double SENSOR_Emin = 540;
     public static double SENSOR_Emax = 8000;
-    // =======================================================================================================================================================
 
+    // Store data scenario
     public static List<Double> REMAINING_ENERGIES;
     public static int NUM_OF_SENSORS;
     public static List<Double> P;
     public static double[][] distances;
-
-    public static String getInputFilePath(){
-        return PATH_TO_RESOURCE + INPUT_FILE_PATH;
-    }
-
-    public static String getOutputFilePath(){
-        return PATH_TO_RESOURCE + OUTPUT_FILE_PATH;
-    }
+    // =======================================================================================================================================================
 }

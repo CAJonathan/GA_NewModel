@@ -13,7 +13,7 @@ public class Experiment {
     public static int LOOP = 30;
 
     public static void main(String[] args){
-        run(Factors.getInputFilePath(), Factors.getOutputFilePath());
+        run(Factors.INPUT_FILE_PATH, Factors.OUTPUT_FILE_PATH);
     }
 
     public static void run(String inputFilePath, String outputFilePath){

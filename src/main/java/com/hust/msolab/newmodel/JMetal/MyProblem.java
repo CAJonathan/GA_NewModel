@@ -16,7 +16,7 @@ public class MyProblem extends MyAbstractSolution {
         setName("New Model");
 
         IOParser parser = new IOParser();
-        parser.initDistanceMatrixWithPointsSetData(Factors.getInputFilePath());
+        parser.initDistanceMatrixWithPointsSetData(Factors.INPUT_FILE_PATH);
         numberOfSensors = numberOfVariables;
     }
 
@@ -32,12 +32,6 @@ public class MyProblem extends MyAbstractSolution {
         final double veryLargeNumber = 5000;
 
         int numOfGenes = solution.getNumberOfVariables();
-        IOParser parser = new IOParser();
-        try{
-            parser.initDistanceMatrixWithPointsSetData(Factors.getInputFilePath());
-        } catch (Exception e){
-            e.printStackTrace();
-        }
         double time = 0.0;
         for(int i = 0 ; i < numOfGenes ; i ++){
             int previous = i == 0 ? 0 : solution.getVariableValue(i - 1);
