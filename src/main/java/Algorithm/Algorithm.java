@@ -19,7 +19,7 @@ public class Algorithm {
 
     public void solve() throws IOException {
         IOParser parser = new IOParser();
-        Main.distances = parser.initDistanceMatrixWithPointsSetData();
+        parser.initDistanceMatrixWithPointsSetData();
 
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {

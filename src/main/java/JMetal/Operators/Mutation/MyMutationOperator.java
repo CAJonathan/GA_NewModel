@@ -1,18 +1,17 @@
-package JMetal;
+package JMetal.Operators.Mutation;
 
+import JMetal.MySolution;
 import Utilities.Factors;
 import Utilities.Utils;
 import org.uma.jmetal.operator.MutationOperator;
-import org.uma.jmetal.solution.PermutationSolution;
-import org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
-public class MyMutationOperator implements MutationOperator<DefaultIntegerPermutationSolution> {
+public class MyMutationOperator implements MutationOperator<MySolution> {
     @Override
-    public DefaultIntegerPermutationSolution execute(DefaultIntegerPermutationSolution permutationSolution) {
+    public MySolution execute(MySolution permutationSolution) {
         ArrayList<Integer> chromosome = new ArrayList<>();
         for(int i = 0 ; i < permutationSolution.getNumberOfVariables() ; i ++){
             chromosome.add((int)permutationSolution.getVariableValue(i));

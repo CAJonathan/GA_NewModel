@@ -1,23 +1,23 @@
-package JMetal;
+package JMetal.Operators.Crossover;
 
+import JMetal.MySolution;
 import org.uma.jmetal.operator.CrossoverOperator;
-import org.uma.jmetal.solution.PermutationSolution;
 import org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class MyCrossoverOperator implements CrossoverOperator<DefaultIntegerPermutationSolution> {
+public class MyCrossoverOperator implements CrossoverOperator<MySolution> {
 
     @Override
-    public List<DefaultIntegerPermutationSolution> execute(List<DefaultIntegerPermutationSolution> permutationSolutions) {
-        PermutationSolution dad = permutationSolutions.get(0);
-        PermutationSolution mom = permutationSolutions.get(0);
+    public List<MySolution> execute(List<MySolution> permutationSolutions) {
+        MySolution dad = permutationSolutions.get(0);
+        MySolution mom = permutationSolutions.get(1);
         int numOfGene = dad.getNumberOfVariables();
 
-        DefaultIntegerPermutationSolution child1 = (DefaultIntegerPermutationSolution)dad.copy();
-        DefaultIntegerPermutationSolution child2 = (DefaultIntegerPermutationSolution)mom.copy();
+        MySolution child1 = dad.copy();
+        MySolution child2 = mom.copy();
 
         int cuttingPoint = (new Random()).nextInt(numOfGene - 2) + 1;
         boolean[] visited1 = new boolean[numOfGene + 1];
@@ -26,8 +26,8 @@ public class MyCrossoverOperator implements CrossoverOperator<DefaultIntegerPerm
         Arrays.fill(visited2, false);
 
         for(int i = 0 ; i < cuttingPoint ; i ++){
-            int gene1 = (int)dad.getVariableValue(i);
-            int gene2 = (int)mom.getVariableValue(i);
+            int gene1 = dad.getVariableValue(i);
+            int gene2 = mom.getVariableValue(i);
             visited1[gene1] = true;
             visited2[gene2] = true;
         }
@@ -43,7 +43,7 @@ public class MyCrossoverOperator implements CrossoverOperator<DefaultIntegerPerm
             }
 
             for(int j = 0 ; j < dad.getNumberOfVariables() ; j ++){
-                int gene2 = (int)dad.getVariableValue(i);
+                int gene2 = (int)dad.getVariableValue(j);
                 if(!visited2[gene2]){
                     child2.setVariableValue(i, gene2);
                     visited2[gene2] = true;
@@ -51,7 +51,7 @@ public class MyCrossoverOperator implements CrossoverOperator<DefaultIntegerPerm
                 }
             }
         }
-        List<DefaultIntegerPermutationSolution> offspring = Arrays.asList(child1, child2);
+        List<MySolution> offspring = Arrays.asList(child1, child2);
         return offspring;
     }
 

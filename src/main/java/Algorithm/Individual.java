@@ -1,8 +1,6 @@
 package Algorithm;
 
-import Algorithm.GAUtils.CrossoverFactory;
-import Algorithm.GAUtils.FitnessFactory;
-import Algorithm.GAUtils.MutationFactory;
+import Algorithm.GAUtils.Factories.Factory;
 import org.javatuples.Pair;
 import java.util.*;
 
@@ -28,7 +26,8 @@ public class Individual {
     }
 
     public void calculateFitnessScore() {
-        fitnessScore = FitnessFactory.fitness(chromosome);
+        Factory factory = new Factory();
+        fitnessScore = factory.fitness(chromosome);
     }
 
     public double getFitnessScore() {
@@ -36,12 +35,14 @@ public class Individual {
     }
 
     public void mutate(){
-        chromosome = MutationFactory.mutate(chromosome);
+        Factory factory = new Factory();
+        chromosome = factory.mutation(chromosome);
         calculateFitnessScore();
     }
 
     public Pair<Individual, Individual> crossover(Individual partner){
-        return CrossoverFactory.crossover(this, partner);
+        Factory factory = new Factory();
+        return factory.crossover(this, partner);
     }
 
 }

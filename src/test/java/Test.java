@@ -1,4 +1,3 @@
-import Algorithm.Main;
 import Utilities.Factors;
 import Utilities.IOParser;
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
@@ -16,7 +15,7 @@ public class Test {
         IOParser parser = new IOParser();
         List<String> chromosomeStr = Arrays.asList("51 69 54 47 11 36 12 39 34 61 57 15 33 68 25 40 53 30 28 20 16 70 9 5 35 27 14 56 3 13 62 63 2 23 67 19 52 50 65 17 37 4 49 60 55 22 59 64 48 58 42 38 10 8 46 6 29 24 41 43 26 32 45 44 7 1 31 21 66 18".split(" "));
         List<Integer> chromosome = chromosomeStr.stream().map(chStr -> Integer.parseInt(chStr)).collect(Collectors.toList());
-        Main.distances = parser.initDistanceMatrixWithPointsSetData();
+        parser.initDistanceMatrixWithPointsSetData();
         System.out.println(fitness6(chromosome));
     }
 
@@ -28,10 +27,10 @@ public class Test {
         for(int i = 0 ; i < numOfGenes ; i ++){
             int previous = i == 0 ? 0 : chromosome.get(i - 1);
             int current = chromosome.get(i);
-            totalDistance += Main.distances[previous][current];
+            totalDistance += Factors.distances[previous][current];
         }
 
-        double tMove = (totalDistance + Main.distances[chromosome.get(numOfGenes - 1)][0]) / Factors.WCE_V;
+        double tMove = (totalDistance + Factors.distances[chromosome.get(numOfGenes - 1)][0]) / Factors.WCE_V;
         double eMove =  Factors.WCE_P_MOVE * tMove;
         double eCharge = Factors.WCE_Emc - eMove;
         double tCharge = eCharge / Factors.WCE_U;
@@ -50,7 +49,7 @@ public class Test {
             int previous = i == 0 ? 0 : chromosome.get(i - 1);
             int current = chromosome.get(i);
 
-            double distance = Main.distances[previous][current];
+            double distance = Factors.distances[previous][current];
             time += distance / Factors.WCE_V;
 
             double remainingEnergy = Factors.REMAINING_ENERGIES.get(current)- Factors.P.get(current) * time;

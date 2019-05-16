@@ -1,31 +1,15 @@
-package Algorithm.GAUtils;
+package Algorithm.GAUtils.Operators.NaturalSelection;
 
+import Algorithm.GAUtils.Operators.OperatorInterfaces.NaturalSelectionOperator;
 import Algorithm.Individual;
 import Utilities.Factors;
 
 import java.util.ArrayList;
 import java.util.Random;
 
-public class NaturalSelectionFactory {
+public class RouletteWheelSelection implements NaturalSelectionOperator {
 
-    /**
-     * @author cajonathan
-     * @param individuals - individuals
-     * @return Selected individuals
-     */
-    public static ArrayList<Individual> naturalSelection(ArrayList<Individual> individuals){
-        switch (Factors.GA_CHOSEN_NATURAL_SELECTION_FUNCTION){
-            default:{
-                return normalNaturalSelection(individuals);
-            }
-
-            case 2:{
-                return rouletteWheelSelection(individuals);
-            }
-        }
-    }
-
-    public static ArrayList<Individual> rouletteWheelSelection(ArrayList<Individual> individuals){
+    public ArrayList<Individual> execute(ArrayList<Individual> individuals) {
         ArrayList<Individual> chosenIndividuals = new ArrayList<>();
         while(chosenIndividuals.size() < Factors.GA_POPULATION_SIZE){
             int size = individuals.size();
@@ -48,13 +32,5 @@ public class NaturalSelectionFactory {
         }
 
         return chosenIndividuals;
-    }
-
-    private static ArrayList<Individual> normalNaturalSelection(ArrayList<Individual> individuals){
-        while(individuals.size() > Factors.GA_POPULATION_SIZE) {
-            individuals.remove(individuals.size() - 1);
-        }
-
-        return individuals;
     }
 }

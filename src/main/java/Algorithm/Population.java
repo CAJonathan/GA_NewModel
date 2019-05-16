@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+import Algorithm.GAUtils.Factories.Factory;
 import Utilities.Factors;
-import Algorithm.GAUtils.NaturalSelectionFactory;
 import org.javatuples.Pair;
 
 public class Population {
@@ -71,7 +71,8 @@ public class Population {
     }
 
     public void naturalSelection() {
-        individuals = NaturalSelectionFactory.naturalSelection(individuals);
+        Factory factory = new Factory();
+        individuals = factory.naturalSelection(individuals);
     }
 
     public Individual bestSolution(){

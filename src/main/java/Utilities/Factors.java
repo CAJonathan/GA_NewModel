@@ -22,7 +22,7 @@ public class Factors {
 
     // For fitness functions
     public static double ALPHA = 0.5;
-    public static double K = 0.02;
+    public static double K = 0.01;
 
     // Choosing GA operators in experimentation
     public static int GA_CHOSEN_FITNESS_FUNCTION = 4;               // values: 1, 2, 3, 4, 5, 6
@@ -33,11 +33,11 @@ public class Factors {
     // Choosing data scenarios
     public static String INPUT_FOLDER = "Data/";
     public static String OUTPUT_FOLDER = "ResultTest/";
-    public static String DISTRIBUTION_ENERGY_PREFIX = "Uniform_distribution_energy/";
-    public static String REMAINING_ENERGY_PREFIX = "Medium_energy/";
+    public static String DISTRIBUTION_ENERGY_PREFIX = "Normal_distribution_energy/";
+    public static String REMAINING_ENERGY_PREFIX = "Low_energy/";
     public static String DISTRIBUTION_LOCATION_PREFIX = "uniform_distribution_location/";
     public static String SCENARIO_INDEX = "s1-";
-    public static String SIZE = "20";
+    public static String SIZE = "70";
     public static String SENSOR_LOCATION_INDEX = "-near";
     // =================================================================================================
 
@@ -68,6 +68,7 @@ public class Factors {
     public static List<Double> REMAINING_ENERGIES;
     public static int NUM_OF_SENSORS;
     public static List<Double> P;
+    public static double[][] distances;
 
     public Factors(){
         String REMAINING_ENERGY_INDEX = "-" + REMAINING_ENERGY_PREFIX.split("_")[0].toLowerCase();
