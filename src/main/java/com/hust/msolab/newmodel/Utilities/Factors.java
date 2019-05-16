@@ -33,7 +33,7 @@ public class Factors {
 
     // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/ResultTest";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result3";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/Fitness/Fitness7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Factories/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/Fitness/Fitness2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Algorithm/GAUtils/Operators/Fitness/Fitness2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/Utilities/Factors.java" afterDir="false" />
-    </list>
+    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProblemRunner">
+  <component name="RunManager" selected="Application.ExperimentAll">
     <configuration name="Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.Experiment.Experiment" />
       <module name="GA_NewModel" />
@@ -265,8 +259,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProblemRunner" />
         <item itemvalue="Application.ExperimentAll" />
+        <item itemvalue="Application.ProblemRunner" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Experiment" />
         <item itemvalue="Application.MainJMetal" />
@@ -289,7 +283,7 @@
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20784964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20784964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,12 +292,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1495816" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5052301" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39225942" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5292887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5292887" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
