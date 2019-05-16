@@ -17,7 +17,6 @@ public class Fitness2 implements FitnessFunction {
             double sufferingTime = Factors.ALPHA * Factors.K * (Factors.REMAINING_ENERGIES.get(current) - Factors.SENSOR_Emin) / Factors.P.get(current);
             double moveTime = (1 - Factors.ALPHA) * Factors.distances[previous][current] / Factors.WCE_V;
             fitnessScore += sufferingTime + moveTime;
-
         }
 
         return fitnessScore;

@@ -26,26 +26,37 @@ public class Factory {
         switch (Factors.GA_CHOSEN_FITNESS_FUNCTION){
             default:{
                 fn = new Fitness1();
+                break;
             }
 
             case 2:{
                 fn = new Fitness2();
+                break;
             }
 
             case 3:{
                 fn = new Fitness3();
+                break;
             }
 
             case 4:{
                 fn = new Fitness4();
+                break;
             }
 
             case 5:{
                 fn = new Fitness5();
+                break;
             }
 
             case 6:{
                 fn = new Fitness6();
+                break;
+            }
+
+            case 7:{
+                fn = new Fitness7();
+                break;
             }
         }
 
