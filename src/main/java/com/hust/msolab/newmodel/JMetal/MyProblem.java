@@ -1,7 +1,7 @@
 package com.hust.msolab.newmodel.JMetal;
 
-import com.hust.msolab.newmodel.Utilities.Factors;
-import com.hust.msolab.newmodel.Utilities.IOParser;
+import com.hust.msolab.newmodel.GA.Utilities.Factors;
+import com.hust.msolab.newmodel.GA.Utilities.IOParser;
 import org.uma.jmetal.solution.PermutationSolution;
 
 import java.io.IOException;
