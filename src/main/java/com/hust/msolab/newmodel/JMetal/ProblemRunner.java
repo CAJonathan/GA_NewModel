@@ -2,6 +2,7 @@ package com.hust.msolab.newmodel.JMetal;
 
 import com.hust.msolab.newmodel.JMetal.Operators.Crossover.MyCrossoverOperator;
 import com.hust.msolab.newmodel.JMetal.Operators.Mutation.MyMutationOperator;
+import com.hust.msolab.newmodel.Utilities.Factors;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
 import org.uma.jmetal.operator.CrossoverOperator;
@@ -9,6 +10,7 @@ import org.uma.jmetal.operator.MutationOperator;
 import org.uma.jmetal.operator.SelectionOperator;
 import org.uma.jmetal.operator.impl.selection.TournamentSelection;
 import org.uma.jmetal.problem.Problem;
+import org.uma.jmetal.problem.singleobjective.cec2005competitioncode.F08ShiftedRotatedAckleyGlobalOptBound;
 import org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolution;
 import org.uma.jmetal.util.AbstractAlgorithmRunner;
 import org.uma.jmetal.util.AlgorithmRunner;
@@ -46,14 +48,14 @@ public class ProblemRunner extends AbstractAlgorithmRunner {
                 .execute() ;
 
         List<MySolution> population = algorithm.getResult() ;
-        printFinalSolutionSet(population);
+        output(population);
     }
 
-    private void output(List<DefaultIntegerPermutationSolution> population){
+    private static void output(List<MySolution> population){
         new SolutionListOutput(population)
                 .setSeparator("\t")
-                .setVarFileOutputContext(new DefaultFileOutputContext("VAR.tsv"))
-                .setFunFileOutputContext(new DefaultFileOutputContext("FUN.tsv"))
+                .setVarFileOutputContext(new DefaultFileOutputContext(Factors.JMETAL_OUTPUT_FOLDER + "/VAR.tsv"))
+                .setFunFileOutputContext(new DefaultFileOutputContext(Factors.JMETAL_OUTPUT_FOLDER + "/FUN.tsv"))
                 .print();
     }
 }
