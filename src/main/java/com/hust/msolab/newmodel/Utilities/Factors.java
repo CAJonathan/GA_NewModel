@@ -26,7 +26,7 @@ public class Factors {
     public static double K = 0.01;
 
     // Choosing GA fitness function and operators
-    public static int GA_CHOSEN_FITNESS_FUNCTION = 7;               // values: 1, 2, 3, 4, 5, 6
+    public static int GA_CHOSEN_FITNESS_FUNCTION = 7;               // values: 1, 2, 3, 4, 5, 6, 7
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
