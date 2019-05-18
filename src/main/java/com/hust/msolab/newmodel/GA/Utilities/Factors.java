@@ -5,7 +5,7 @@ import java.util.List;
 public class Factors {
 
 
-    // ================================Only change for experiment=======================================
+    // =========================================================================Only change for experiment=========================================================================
     // For genetic algorithm
     public static int GA_LOOP = 500;
     public static int GA_POPULATION_SIZE = 200;
@@ -26,7 +26,7 @@ public class Factors {
     public static double K = 0.01;
 
     // Choosing GA fitness function and operators
-    public static int GA_CHOSEN_FITNESS_FUNCTION = 7;               // values: 1, 2, 3, 4, 5, 6, 7
+    public static int GA_CHOSEN_FITNESS_FUNCTION = 8;               // values: 1, 2, 3, 4, 5, 6, 7, 8
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
@@ -34,7 +34,7 @@ public class Factors {
 
     // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result3";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result4";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
@@ -43,11 +43,11 @@ public class Factors {
     // Jmetal
     public static int JMETAL_NUM_OF_SENSORS = 70;
     public static String JMETAL_OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/JMetal-Result";
-    // =================================================================================================
+    // =========================================================================================================================================================================
 
 
 
-    // ======================================Never make any change unless you know exactly what you're going to do===========================================
+    // ==================================================Never make any change unless you know exactly what you're going to do==================================================
 
     // Fixed factors in WRSN
     public static double WCE_V = 5;
@@ -64,5 +64,5 @@ public class Factors {
     public static int NUM_OF_SENSORS;
     public static List<Double> P;
     public static double[][] distances;
-    // =======================================================================================================================================================
+    // =========================================================================================================================================================================
 }

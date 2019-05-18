@@ -22,7 +22,7 @@ Data described as belows:
    There are 4 column meaning respectively:
         x_coordinate y_coordinate power_consumption remaining_energy
 
-3. In FixedData file:
+3. In Fixed data file:
    E_mc
    E_max
    E_min

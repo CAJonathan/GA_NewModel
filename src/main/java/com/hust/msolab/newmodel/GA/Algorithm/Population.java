@@ -44,8 +44,11 @@ public class Population {
     }
 
     public void mutate() {
+        Random rand = new Random();
         for(Individual individual : individuals) {
-            individual.mutate();
+            if(rand.nextDouble() < Factors.GA_MUTATION_PROBABILITY) {
+                individual.mutate();
+            }
         }
     }
 

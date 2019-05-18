@@ -56,6 +56,11 @@ public class Factory {
                 fn = new Fitness7();
                 break;
             }
+
+            case 8:{
+                fn = new Fitness8();
+                break;
+            }
         }
 
 

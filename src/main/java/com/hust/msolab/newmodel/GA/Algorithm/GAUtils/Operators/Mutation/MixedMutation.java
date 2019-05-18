@@ -11,14 +11,11 @@ public class MixedMutation implements MutationOperator {
     public List<Integer> execute(List<Integer> chromosome){
         Random rand = new Random();
         MutationOperator mutationOperator;
-        if(rand.nextDouble() < Factors.GA_MUTATION_PROBABILITY){
-            if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2){
-                mutationOperator = new NormalMutation();
-            } else{
-                mutationOperator = new CimMutation();
-            }
+
+        if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2){
+            mutationOperator = new NormalMutation();
         } else{
-            return chromosome;
+            mutationOperator = new CimMutation();
         }
 
         return mutationOperator.execute(chromosome);

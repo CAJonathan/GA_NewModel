@@ -23,7 +23,8 @@ public class ExperimentAll {
         for(File subFile : folder.listFiles()){
             if(subFile.isFile()){
                 String inputFilePath = subFile.getAbsolutePath();
-                String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER).replace(".", "-result.");
+                String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER)
+                                                     .replace(".", "-result.");
                 Experiment.run(inputFilePath, outputFilePath);
             } else{
                 run(dataFolder + "/" + subFile.getName());
