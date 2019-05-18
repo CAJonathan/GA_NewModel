@@ -16,7 +16,7 @@ public class MyProblem extends MyAbstractSolution {
         setName("New Model");
 
         IOParser parser = new IOParser();
-        parser.initDistanceMatrixWithPointsSetData(Factors.INPUT_FILE_PATH);
+        parser.parseData(Factors.INPUT_FILE_PATH);
         numberOfSensors = numberOfVariables;
     }
 

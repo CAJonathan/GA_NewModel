@@ -13,6 +13,7 @@ public class Factors {
     // For crossover operators
     public static double GA_CROSSOVER_PROBABILITY = 0.5;
     public static double GA_CHANGE_CROSSOVER_OPERATION_PROBABILITY1 = 0.01;
+    public static double GA_CHANGE_CROSSOVER_OPERATION_PROBABILITY2 = 0.1;
     public static int GA_TOURNAMENT_SIZE = 5;
     public static int GA_PARENTS_PAIR_SIZE = 100;
 
@@ -27,7 +28,7 @@ public class Factors {
 
     // Choosing GA fitness function and operators
     public static int GA_CHOSEN_FITNESS_FUNCTION = 8;               // values: 1, 2, 3, 4, 5, 6, 7, 8
-    public static int GA_CHOSEN_CROSSOVER_FUNCTION = 2;             // values: 1, 2, 3
+    public static int GA_CHOSEN_CROSSOVER_FUNCTION = 5;             // values: 1, 2, 3, 4, 5
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 1;     // values: 1
@@ -38,7 +39,7 @@ public class Factors {
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
-    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt";
+    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/u70-result.txt";
 
     // Jmetal
     public static int JMETAL_NUM_OF_SENSORS = 70;

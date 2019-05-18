@@ -12,7 +12,7 @@ public class Algorithm {
 
     public void solve(String filePath) throws IOException {
         IOParser parser = new IOParser();
-        parser.initDistanceMatrixWithPointsSetData(filePath);
+        parser.parseData(filePath);
 
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {

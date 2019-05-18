@@ -1,16 +1,14 @@
 package com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Factories;
 
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Crossover.CircleCrossover;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Crossover.MixedCrossover;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Crossover.SimpleCrossover;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Fitness.*;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Mutation.CimMutation;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Mutation.MixedMutation;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Mutation.NormalMutation;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.NaturalSelection.NormalNaturalSelection;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.NaturalSelection.RouletteWheelSelection;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Crossover.*;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Fitness.*;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.CimMutation;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.MixedMutation;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.NormalMutation;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.NormalNaturalSelection;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.RouletteWheelSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.OperatorInterfaces.*;
-import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.ParentsSelection.TounamentSelection;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.ParentsSelection.TounamentSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.Individual;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
 import org.javatuples.Pair;
@@ -82,6 +80,16 @@ public class Factory {
 
             case 3:{
                 crO = new MixedCrossover();
+                break;
+            }
+
+            case 4:{
+                crO = new RmxCrossover();
+                break;
+            }
+
+            case 5:{
+                crO = new MixedCrossoverV2();
                 break;
             }
         }

@@ -44,7 +44,7 @@ public class IOParser {
         writer.close();
     }
 
-    public void initDistanceMatrixWithPointsSetData(String filePath) throws IOException{
+    public void parseData(String filePath) throws IOException{
         ArrayList<Pair<Double, Double>> pointsSet = readPointsSetData(filePath);
         int numOfNode = Factors.NUM_OF_SENSORS + 1;
         double [][] distances = new double[numOfNode][numOfNode];
@@ -58,7 +58,6 @@ public class IOParser {
 
         Factors.distances = distances;
     }
-
     private ArrayList<Pair<Double, Double>> readPointsSetData(String filePath) throws IOException{
 
         Scanner scanner = new Scanner(new File(filePath));
