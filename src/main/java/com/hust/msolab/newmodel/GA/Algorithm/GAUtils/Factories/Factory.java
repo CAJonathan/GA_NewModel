@@ -5,8 +5,11 @@ import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Fitne
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.CimMutation;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.MixedMutation;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.NormalMutation;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.MixednaturalSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.NormalNaturalSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.RouletteWheelSelection;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.ParentsSelection.MixedParentsSelection;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.ParentsSelection.RandomlyParentsSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.OperatorInterfaces.*;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.ParentsSelection.TounamentSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.Individual;
@@ -112,6 +115,7 @@ public class Factory {
 
             case 3:{
                 mtO = new MixedMutation();
+                break;
             }
         }
 
@@ -128,6 +132,12 @@ public class Factory {
 
             case 2:{
                 nsO = new RouletteWheelSelection();
+                break;
+            }
+
+            case 3:{
+                nsO = new MixednaturalSelection();
+                break;
             }
         }
 
@@ -139,6 +149,17 @@ public class Factory {
         switch (Factors.GA_CHOSEN_PARENTS_SELECTION_FUNCTION){
             default:{
                 psO = new TounamentSelection();
+                break;
+            }
+
+            case 2:{
+                psO = new RandomlyParentsSelection();
+                break;
+            }
+
+            case 3:{
+                psO = new MixedParentsSelection();
+                break;
             }
         }
 

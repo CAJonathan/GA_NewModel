@@ -17,10 +17,16 @@ public class Factors {
     public static int GA_TOURNAMENT_SIZE = 5;
     public static int GA_PARENTS_PAIR_SIZE = 100;
 
+    // For parent selection operator
+    public static double GA_CHANGE_PARENT_SELECTION_OPERATOR_PROBABILITY1 = 0.6;
+
     // For mutation operators
     public static double GA_MUTATION_PROBABILITY = 0.1;
     public static double GA_CHANGE_MUTATION_OPERATION_PROBABILITY1 = 0.15;
     public static double GA_CHANGE_MUTATION_OPERATION_PROBABILITY2 = 0.15;
+
+    // For natural selection operator
+    public static double GA_DIVERSITY_THRESHOLE = 0.99;
 
     // For fitness functions
     public static double ALPHA = 0.5;
@@ -30,8 +36,8 @@ public class Factors {
     public static int GA_CHOSEN_FITNESS_FUNCTION = 8;               // values: 1, 2, 3, 4, 5, 6, 7, 8
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 5;             // values: 1, 2, 3, 4, 5
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3
-    public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2
-    public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 1;     // values: 1
+    public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2, 3
+    public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
 
     // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1";
