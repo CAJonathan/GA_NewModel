@@ -9,10 +9,9 @@ public class Individual {
     private double fitnessScore;
 
     public Individual(int numOfGene) {
-        chromosome = new ArrayList<>();
-        for(int i = 1 ; i <= numOfGene ; i ++){
-            chromosome.add(i);
-        }
+        Integer[] sensors = new Integer[numOfGene];
+        Arrays.setAll(sensors, index -> index + 1);
+        chromosome = new ArrayList<>(Arrays.asList(sensors));
         Collections.shuffle(chromosome);
         calculateFitnessScore();
     }

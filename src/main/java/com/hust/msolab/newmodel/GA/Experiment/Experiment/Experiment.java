@@ -1,4 +1,4 @@
-package com.hust.msolab.newmodel.GA.Experiment;
+package com.hust.msolab.newmodel.GA.Experiment.Experiment;
 
 import com.hust.msolab.newmodel.GA.Algorithm.Individual;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;

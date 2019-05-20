@@ -22,12 +22,14 @@ public class IOParser {
             writer.write(sensor + " ");
         }
 
-        writer.write("\nBest fitness: " + String.format("%.2f", bestInd.getFitnessScore()));
+        writer.write("\nBest fitness: " + String.format("%.2f\n", bestInd.getFitnessScore()));
 
         List<Integer> worstPath = worstInd.getChromosome();
         for(Integer sensor : worstPath){
             writer.write(sensor + " ");
         }
+
+        writer.write("\nWorst fitness: " + String.format("%.2f\n", worstInd.getFitnessScore()));
 
         writer.write("\nAlpha: " + String.format("%.2f", Factors.ALPHA));
 

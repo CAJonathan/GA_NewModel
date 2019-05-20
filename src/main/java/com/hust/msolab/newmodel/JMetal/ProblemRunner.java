@@ -1,5 +1,6 @@
 package com.hust.msolab.newmodel.JMetal;
 
+import com.hust.msolab.newmodel.GA.Utilities.Utils;
 import com.hust.msolab.newmodel.JMetal.Operators.Crossover.MyCrossoverOperator;
 import com.hust.msolab.newmodel.JMetal.Operators.Mutation.MyMutationOperator;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
@@ -28,7 +29,9 @@ public class ProblemRunner extends AbstractAlgorithmRunner {
         MutationOperator<MySolution> mutation;
         SelectionOperator<List<MySolution>, MySolution> selection;
 
-        problem = new MyProblem(Factors.JMETAL_NUM_OF_SENSORS);
+        int numOfSensor = Utils.extractFilePath(Factors.INPUT_FILE_PATH);
+
+        problem = new MyProblem(numOfSensor);
 
         crossover = new MyCrossoverOperator() ;
 

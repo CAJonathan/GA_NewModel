@@ -5,6 +5,7 @@ import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Fitne
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.CimMutation;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.MixedMutation;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.NormalMutation;
+import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.ShufflingSegmentMutation;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.MixednaturalSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.NormalNaturalSelection;
 import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.NaturalSelection.RouletteWheelSelection;
@@ -95,6 +96,11 @@ public class Factory {
                 crO = new MixedCrossoverV2();
                 break;
             }
+
+            case 6:{
+                crO = new PositionCrossover();
+                break;
+            }
         }
 
         return crO.execute(indDad, indMom);
@@ -115,6 +121,11 @@ public class Factory {
 
             case 3:{
                 mtO = new MixedMutation();
+                break;
+            }
+
+            case 4:{
+                mtO = new ShufflingSegmentMutation();
                 break;
             }
         }

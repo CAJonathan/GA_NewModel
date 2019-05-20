@@ -12,7 +12,7 @@ public class MixedMutation implements MutationOperator {
         Random rand = new Random();
         MutationOperator mutationOperator;
 
-        if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY2){
+        if(rand.nextDouble() < Factors.GA_CHANGE_MUTATION_OPERATION_PROBABILITY1){
             mutationOperator = new NormalMutation();
         } else{
             mutationOperator = new CimMutation();
