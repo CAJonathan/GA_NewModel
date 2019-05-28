@@ -45,8 +45,8 @@ public class Factors {
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result4";
 
     // Choosing data file for single experiment
-    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u100.txt";
-    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result4/Uniform_distribution_energy/uniform_distribution_location/u100-result.txt";
+    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
+    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result4/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt";
 
     // Jmetal
     public static String JMETAL_OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/JMetal-Result";
