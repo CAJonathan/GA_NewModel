@@ -3,8 +3,6 @@ package com.hust.msolab.newmodel.GA.Utilities;
 import java.util.List;
 
 public class Factors {
-
-
     // =========================================================================Only change for experiment=========================================================================
     // For genetic algorithm
     public static int GA_LOOP = 500;
@@ -33,12 +31,12 @@ public class Factors {
     public static double K = 0.01;
 
     // Choosing GA fitness function and operators
+    // Best operators set: (5, 2, 1, 3)
     public static int GA_CHOSEN_FITNESS_FUNCTION = 8;               // values: 1, 2, 3, 4, 5, 6, 7, 8
     public static int GA_CHOSEN_CROSSOVER_FUNCTION = 5;             // values: 1, 2, 3, 4, 5, 6
     public static int GA_CHOSEN_MUTATION_FUNCTION = 3;              // values: 1, 2, 3, 4
     public static int GA_CHOSEN_NATURAL_SELECTION_FUNCTION = 1;     // values: 1, 2, 3
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
-            // Best: (5, 2, 1, 3)
 
     // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1";
