@@ -49,7 +49,7 @@ public class IOParser {
         Factors.distances = distances;
     }
     private List<Pair<Double, Double>> readData(String filePath) throws IOException{
-        Scanner scanner = new Scanner(new File(Factors.INPUT_FILE_PATH));
+        Scanner scanner = new Scanner(new File(filePath));
 
         List<Pair<Double, Double>> data = new ArrayList<>();
         data.add(new Pair(Factors.SERVICE_STATION_X, Factors.SERVICE_STATION_Y));

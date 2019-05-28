@@ -5,7 +5,7 @@ import java.util.List;
 public class Factors {
     // =========================================================================Only change for experiment=========================================================================
     // For genetic algorithm
-    public static int GA_LOOP = 500;
+    public static int GA_LOOP = 400;
     public static int GA_POPULATION_SIZE = 250;
 
     // For crossover operators
@@ -43,8 +43,8 @@ public class Factors {
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result5";
 
     // Choosing data file for single experiment
-    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u70.txt";
-    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result4/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt";
+    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-near.txt";
+    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-near-result.txt";
 
     // Jmetal
     public static String JMETAL_OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/JMetal-Result";
