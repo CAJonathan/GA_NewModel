@@ -1,7 +1,0 @@
-e_mc = 40000
-u = 5
-e_max = 8000
-e_min = 400 (5% e_max)
-e_thres = 800
-v = 5 (m/s)
-service station = (0,0)

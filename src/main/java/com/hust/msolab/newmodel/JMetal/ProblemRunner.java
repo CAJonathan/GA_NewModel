@@ -23,30 +23,18 @@ import java.util.List;
 public class ProblemRunner extends AbstractAlgorithmRunner {
 
     public static void main(String[] args) throws JMetalException, IOException {
-        Problem problem;
-        Algorithm<List<MySolution>> algorithm;
-        CrossoverOperator<MySolution> crossover;
-        MutationOperator<MySolution> mutation;
-        SelectionOperator<List<MySolution>, MySolution> selection;
+        Problem problem = new MyProblem();
+        CrossoverOperator<MySolution> crossover = new MyCrossoverOperator() ;
+        MutationOperator<MySolution> mutation = new MyMutationOperator();
+        SelectionOperator<List<MySolution>, MySolution> selection = new TournamentSelection<>(5);
 
-        int numOfSensor = Utils.extractFilePath(Factors.INPUT_FILE_PATH);
-
-        problem = new MyProblem(numOfSensor);
-
-        crossover = new MyCrossoverOperator() ;
-
-        mutation = new MyMutationOperator();
-
-        selection = new TournamentSelection<>(5);
-
-        algorithm = new NSGAIIBuilder<MySolution>(problem, crossover, mutation)
+        Algorithm<List<MySolution>> algorithm = new NSGAIIBuilder<MySolution>(problem, crossover, mutation)
                 .setSelectionOperator(selection)
                 .setMaxEvaluations(25000)
                 .setPopulationSize(100)
                 .build() ;
 
-        AlgorithmRunner algorithmRunner = new AlgorithmRunner.Executor(algorithm)
-                .execute() ;
+        new AlgorithmRunner.Executor(algorithm).execute() ;
 
         List<MySolution> population = algorithm.getResult() ;
         output(population);

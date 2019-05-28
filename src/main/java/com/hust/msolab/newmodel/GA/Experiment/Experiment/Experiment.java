@@ -24,8 +24,10 @@ public class Experiment {
             List<Individual> badIndividuals = new ArrayList<>();
 
             System.out.println(inputFilePath);
+            IOParser parser = new IOParser();
+            parser.parseData(inputFilePath);
             for(int i = 0 ; i < LOOP ; i ++){
-                ag.solve(inputFilePath);
+                ag.solve();
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
                 System.out.print("====>");
@@ -37,7 +39,6 @@ public class Experiment {
             Individual bestInd = goodIndividuals.get(0);
             Individual worstInd = badIndividuals.get(badIndividuals.size() - 1);
 
-            IOParser parser = new IOParser();
             parser.output(bestInd, worstInd, outputFilePath);
 
         } catch(Exception e){

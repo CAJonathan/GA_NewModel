@@ -10,10 +10,7 @@ public class Algorithm {
     private Individual bestIndividual;
     private Individual worstIndividual;
 
-    public void solve(String filePath) throws IOException {
-        IOParser parser = new IOParser();
-        parser.parseData(filePath);
-
+    public void solve() {
         Population population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {
             population.crossover();

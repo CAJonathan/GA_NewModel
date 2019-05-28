@@ -27,7 +27,6 @@ public class MySolution
             setVariableValue(i, randomSequence.get(i)) ;
         }
     }
-
     public MySolution(MySolution solution) {
         super(solution.problem) ;
         for (int i = 0; i < problem.getNumberOfObjectives(); i++) {
@@ -38,7 +37,7 @@ public class MySolution
             setVariableValue(i, solution.getVariableValue(i));
         }
 
-        attributes = new HashMap<Object, Object>(solution.attributes) ;
+        attributes = new HashMap<>(solution.attributes) ;
     }
 
     @Override

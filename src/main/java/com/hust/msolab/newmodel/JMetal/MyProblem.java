@@ -8,16 +8,13 @@ import java.io.IOException;
 
 public class MyProblem extends MyAbstractSolution {
 
-    protected int numberOfSensors ;
-
-    public MyProblem(Integer numberOfVariables) throws IOException {
-        setNumberOfVariables(numberOfVariables);
-        setNumberOfObjectives(2);
-        setName("New Model");
-
+    public MyProblem() throws IOException {
         IOParser parser = new IOParser();
         parser.parseData(Factors.INPUT_FILE_PATH);
-        numberOfSensors = numberOfVariables;
+
+        setNumberOfVariables(Factors.NUM_OF_SENSORS);
+        setNumberOfObjectives(2);
+        setName("New Model");
     }
 
     @Override
@@ -56,6 +53,6 @@ public class MyProblem extends MyAbstractSolution {
 
     @Override
     public int getPermutationLength() {
-        return numberOfSensors ;
+        return Factors.NUM_OF_SENSORS ;
     }
 }

@@ -14,20 +14,6 @@ public class Utils {
         return Math.sqrt(Math.pow(point1.getValue0() - point2.getValue0(), 2) + Math.pow(point1.getValue1() - point2.getValue1(), 2));
     }
 
-    public static int extractFilePath(String filePath){
-        String[] fileExtracted = filePath.split("/");
-        String fileName = fileExtracted[fileExtracted.length - 1];
-        String[] fileNameParts = fileName.split("-");
-        if(fileNameParts.length < 2){
-            fileNameParts = fileName.split("\\.");
-        }
-        int numberPart = fileNameParts.length > 2 ? 1 : 0;
-        String numOfSensorStr = fileNameParts[numberPart].substring(1);
-        int numOfSensor = Integer.parseInt(numOfSensorStr);
-
-        return numOfSensor;
-    }
-
     public static List<Integer> Reverse(List<Integer> chromosome, int start, int end) {
         int i = start;
         int j = end;
