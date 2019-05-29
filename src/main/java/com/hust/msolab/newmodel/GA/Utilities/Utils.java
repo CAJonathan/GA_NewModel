@@ -3,7 +3,10 @@ package com.hust.msolab.newmodel.GA.Utilities;
 import com.hust.msolab.newmodel.GA.Algorithm.Individual;
 import org.javatuples.Pair;
 
-import java.io.File;
+import java.io.*;
+import java.nio.channels.FileChannel;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -49,5 +52,20 @@ public class Utils {
                 recursiveClone(subFile.getAbsolutePath(), src, des);
             }
         }
+    }
+
+    public static void coppyContent(String src, String des) throws IOException{
+        FileChannel.open(Paths.get(des), StandardOpenOption.WRITE)
+                .truncate(0).close();
+        FileReader fr = new FileReader(src);
+        BufferedReader br = new BufferedReader(fr);
+        FileWriter fw = new FileWriter(des, true);
+        String s;
+
+        while ((s = br.readLine()) != null) {
+            fw.write(s + "\n");
+        }
+        br.close();
+        fw.close();
     }
 }

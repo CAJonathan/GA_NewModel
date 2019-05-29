@@ -1,49 +1,35 @@
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
 import org.javatuples.Pair;
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
+import java.nio.channels.FileChannel;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Test {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        Scanner scanner = new Scanner(new File(Factors.INPUT_FILE_PATH));
+    public static void main(String[] args) throws FileNotFoundException, IOException{
+        FileChannel.open(Paths.get("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/b.txt"), StandardOpenOption.WRITE)
+                .truncate(0).close();
+        try {
+            FileReader fr = new FileReader("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/a.txt");
+            BufferedReader br = new BufferedReader(fr);
+            FileWriter fw = new FileWriter("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/b.txt", true);
+            String s;
 
-        List<Pair<Double, Double>> data = new ArrayList<>();
-        data.add(new Pair(Factors.SERVICE_STATION_X, Factors.SERVICE_STATION_Y));
-
-        Factors.REMAINING_ENERGIES = new ArrayList<>();
-        Factors.REMAINING_ENERGIES.add(0.0);
-
-        Factors.P = new ArrayList<>();
-        Factors.P.add(0.0);
-
-        while (scanner.hasNextLine()){
-            try{
-                double x = scanner.nextDouble();
-                double y = scanner.nextDouble();
-                double p = scanner.nextDouble();
-                double remainingEnergy = scanner.nextDouble();
-
-                data.add(new Pair(x, y));
-                Factors.REMAINING_ENERGIES.add(remainingEnergy);
-                Factors.P.add(p);
-                Factors.NUM_OF_SENSORS ++;
-            } catch (Exception e){
-                System.out.println("EOF reached!");
+            while ((s = br.readLine()) != null) { // read a line
+                fw.write(s + "\n"); // write to output file
+                fw.flush();
             }
-        }
-        scanner.close();
-
-        for(int i = 0 ; i <= Factors.NUM_OF_SENSORS ; i ++){
-            System.out.print(data.get(i).getValue0() + " ");
-            System.out.print(data.get(i).getValue1() + " ");
-            System.out.print(Factors.P.get(i) + " ");
-            System.out.print(Factors.REMAINING_ENERGIES.get(i) + " ");
-            System.out.println();
+            br.close();
+            fw.close();
+            System.out.println("file copied");
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
         }
     }
 

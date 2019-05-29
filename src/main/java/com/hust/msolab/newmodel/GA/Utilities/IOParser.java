@@ -15,7 +15,7 @@ public class IOParser {
 
     public void output(Individual bestInd, Individual worstInd, String outputFilePath) throws IOException{
         File resultFile = new File(outputFilePath);
-        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
 
         List<Integer> bestPath = bestInd.getChromosome();
         for(Integer sensor : bestPath){
