@@ -11,9 +11,10 @@ import org.javatuples.Pair;
 
 public class Population {
 
-    private List<Individual> individuals = new ArrayList<>();
+    private List<Individual> individuals;
 
     public Population() {
+        individuals = new ArrayList<>();
         for(int i = 0; i < Factors.GA_POPULATION_SIZE ; i ++) {
             Individual item = new Individual(Factors.NUM_OF_SENSORS);
             individuals.add(item);

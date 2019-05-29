@@ -16,7 +16,7 @@ public class MixednaturalSelection implements NaturalSelectionOperator {
         double centerFitness = (bestInd.getFitnessScore() + worstInd.getFitnessScore()) / 2;
         double avgFitness = individuals.stream().mapToDouble(ind -> ind.getFitnessScore()).sum() / individuals.size();
 
-        if(Math.abs(centerFitness - avgFitness) < avgFitness * Factors.GA_DIVERSITY_THRESHOLE){
+        if(Math.abs(centerFitness - avgFitness) < avgFitness * Factors.GA_DIVERSITY_THRESHOLD){
             return new NormalNaturalSelection().execute(individuals);
         } else{
             return new RouletteWheelSelection().execute(individuals);

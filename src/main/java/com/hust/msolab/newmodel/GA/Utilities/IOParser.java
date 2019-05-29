@@ -60,6 +60,8 @@ public class IOParser {
         Factors.P = new ArrayList<>();
         Factors.P.add(0.0);
 
+        Factors.NUM_OF_SENSORS = 0;
+
         while (scanner.hasNextLine()){
             try{
                 double x = scanner.nextDouble();
@@ -73,6 +75,7 @@ public class IOParser {
                 Factors.NUM_OF_SENSORS ++;
             } catch (Exception e){
                 System.out.println("EOF reached!");
+                break;
             }
         }
         scanner.close();

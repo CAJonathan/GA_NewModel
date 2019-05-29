@@ -24,7 +24,7 @@ public class Factors {
     public static double GA_CHANGE_MUTATION_OPERATION_PROBABILITY2 = 0.0;
 
     // For natural selection operator
-    public static double GA_DIVERSITY_THRESHOLE = 0.99;
+    public static double GA_DIVERSITY_THRESHOLD = 0.99;
 
     // For fitness functions
     public static double ALPHA = 0.5;

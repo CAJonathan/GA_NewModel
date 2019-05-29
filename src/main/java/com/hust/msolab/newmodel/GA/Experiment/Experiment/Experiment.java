@@ -18,7 +18,6 @@ public class Experiment {
     }
 
     public static void run(String inputFilePath, String outputFilePath){
-        Algorithm ag = new Algorithm();
         try{
             List<Individual> goodIndividuals = new ArrayList<>();
             List<Individual> badIndividuals = new ArrayList<>();
@@ -27,6 +26,7 @@ public class Experiment {
             IOParser parser = new IOParser();
             parser.parseData(inputFilePath);
             for(int i = 0 ; i < LOOP ; i ++){
+                Algorithm ag = new Algorithm();
                 ag.solve();
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
