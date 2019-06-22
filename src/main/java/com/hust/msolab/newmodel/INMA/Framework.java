@@ -16,10 +16,12 @@ public class Framework {
 
     public void run(String inputFilePath) throws IOException {
         INMAFileIO reader = new INMAFileIO();
+
         Sensor[] sensors = reader.readData(inputFilePath);
         MC mc = new MC(0);
         ServicesStation servicesStation = new ServicesStation();
         List<Sensor> validNodes = new ArrayList<>();
+
         double time = 0.0;
         while(time < Factors.DURING){
             time += Factors.TIME_INTERVAL;
