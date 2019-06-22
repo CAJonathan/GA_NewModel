@@ -27,7 +27,7 @@ public class Fitness8 implements FitnessFunction {
         double F2 = 0.0;
         double avgF = F1 / numOfGenes;
         for(double w_i : w){
-            F2 += w_i - avgF;
+            F2 += Math.abs(w_i - avgF);
         }
 
         return Factors.ALPHA * F1 + (1 - Factors.ALPHA) * F2;

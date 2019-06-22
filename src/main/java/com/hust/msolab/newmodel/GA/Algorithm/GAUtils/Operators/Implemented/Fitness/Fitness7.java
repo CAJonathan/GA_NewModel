@@ -19,7 +19,7 @@ public class Fitness7 implements FitnessFunction {
         }
 
         double tMove = (totalDistance + Factors.distances[chromosome.get(numOfGenes - 1)][0]) / Factors.WCE_V;
-        double eMove =  Factors.WCE_P_MOVE * tMove;
+        double eMove =  Factors.WCE_P_MOVE * tMove * Factors.WCE_V;
         double eCharge = Factors.WCE_Emc - eMove;
         double tCharge = eCharge / Factors.WCE_U;
 

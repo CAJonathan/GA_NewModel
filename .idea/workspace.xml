@@ -5,32 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/ImplementScenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/MC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Sensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/ServicesStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/Experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/Data1/FixedData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/FixedData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Data/Data1/Readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Data/Readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-near-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n40-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n40-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n70-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n70-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n70-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n70-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u100-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u100-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u150-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u150-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u20-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u20-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u200-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u200-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Data1/FixedData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Data/Data1/Readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt" afterDir="false" />
@@ -52,8 +65,13 @@
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/IOParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/IOParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Experiment/Experiment/Experiment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Factors.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
@@ -69,81 +87,64 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/Experiment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="15" column="106" lean-forward="true" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
-              <folding>
-                <element signature="method#euclideDistance#0;class#Utils#0" />
-                <element signature="method#Reverse#0;class#Utils#0" />
-                <element signature="method#sort#0;class#Utils#0" />
-                <element signature="method#recursiveClone#0;class#Utils#0" />
-                <element signature="method#coppyContent#0;class#Utils#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="83" lean-forward="true" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-far-result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="855">
+                  <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Message.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Framework.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-30">
+                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,26 +194,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Fitness/Fitness5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Fitness/Fitness6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Fitness/Fitness7.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Crossover/SimpleCrossover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Crossover/CircleCrossover.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/Operators/Mutation/MyMutationOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Mutation/MixedMutation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Data/Readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/OperatorInterfaces/FitnessFunction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Fitness/Fitness8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Factories/Implemented/FitnessFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/RmxCrossover.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/MixedCrossoverV2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/ParentsSelection/TounamentSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/ParentsSelection/RandomlyParentsSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/ParentsSelection/MixedParentsSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/OperatorInterfaces/CrossoverOperator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/NaturalSelection/RankBasedSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Individual.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Mutation/ShufflingSegmentMutation.java" />
@@ -230,20 +216,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/MyProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/JMetal/ProblemRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Algorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n70-far.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n100-near.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n150-far.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-far.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Population.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/NaturalSelection/MixednaturalSelection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/Experiment.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java" />
         <option value="$PROJECT_DIR$/src/main/resources/a.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/StreamFactors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/ImplementScenario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/ServicesStation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/MC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/FileIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Framework.java" />
       </list>
     </option>
   </component>
@@ -255,10 +256,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="899" />
-    <option name="y" value="93" />
+    <option name="x" value="583" />
+    <option name="y" value="105" />
     <option name="width" value="928" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -266,8 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,45 +290,63 @@
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Result5" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="GA" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Result5" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="GA" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
-              <item name="Result5" type="462c0819:PsiDirectoryNode" />
-              <item name="Uniform_distribution_energy" type="462c0819:PsiDirectoryNode" />
-              <item name="normal_distribution_location" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="INMA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="INMA" type="462c0819:PsiDirectoryNode" />
+              <item name="Device" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="INMA" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -337,15 +354,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -356,18 +382,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location" />
       <recent name="$PROJECT_DIR$/src/main/resources/InputP2" />
       <recent name="$PROJECT_DIR$/src/main/resources/Result/ResultTest" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Result2/Normal_distribution_energy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
       <recent name="$PROJECT_DIR$/src/main/resources/InputP2/sit1" />
       <recent name="$PROJECT_DIR$/src/main/resources/Image" />
       <recent name="$PROJECT_DIR$/src/main/resources/" />
       <recent name="$PROJECT_DIR$/src/main/resources/\" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -382,9 +408,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExperimentAll">
+  <component name="RunManager" selected="Application.ImplementScenario">
     <configuration name="Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Experiment.Experiment.Experiment" />
+      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Experiment.Experiment" />
       <module name="GA_NewModel" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/" />
       <extension name="coverage">
@@ -398,12 +424,26 @@
       </method>
     </configuration>
     <configuration name="ExperimentAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Experiment.Experiment.ExperimentAll" />
+      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Experiment.ExperimentAll.ExperimentAll" />
       <module name="GA_NewModel" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Experiment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementScenario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Experiment.Experimentv2.ImplementScenario" />
+      <module name="GA_NewModel" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hust.msolab.newmodel.GA.Experiment.Experimentv2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,20 +458,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JMetal.Operators.Crossover.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShufflingSegmentMutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.ShufflingSegmentMutation" />
-      <module name="GA_NewModel" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/resources/" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Operators.Implemented.Mutation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,16 +483,16 @@
       <item itemvalue="Application.ExperimentAll" />
       <item itemvalue="Application.Experiment" />
       <item itemvalue="Application.ProblemRunner" />
-      <item itemvalue="Application.ShufflingSegmentMutation" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.ImplementScenario" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExperimentAll" />
+        <item itemvalue="Application.ImplementScenario" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ExperimentAll" />
         <item itemvalue="Application.Experiment" />
         <item itemvalue="Application.ProblemRunner" />
-        <item itemvalue="Application.ShufflingSegmentMutation" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +522,7 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22056384" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16030957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,12 +531,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09832636" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38075313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4121339" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24790795" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2416318" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294979" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
@@ -524,7 +550,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30237702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28137094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -533,12 +559,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23849373" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39958158" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37238494" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4121339" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.51882845" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2416318" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294979" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
@@ -607,131 +633,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/FixedData.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n20-near.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n20-far.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n30-far.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n30-near.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n40-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n40-near.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n70-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n70-near.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n100-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n100-near.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n150-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n150-near.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u150-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-far.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#calculateFitnessScore#0;class#Individual#0" />
-            <element signature="method#mutate#0;class#Individual#0" />
-            <element signature="method#crossover#0;class#Individual#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#crossover#0;class#Population#0" />
-            <element signature="method#naturalSelection#0;class#Population#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -739,84 +640,301 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u20.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u200.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u150.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u100.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u70.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u40.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/uniform_distribution_location/u30.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-near.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Random.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/ParentsSelection/RandomlyParentsSelection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data2/Readme.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/ParentsSelection/MixedParentsSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Factories/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/MixedCrossoverV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/MixedCrossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/SimpleCrossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/CircleCrossover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u200-result.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/StreamFactors.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/FactorsExperiment/FindOptimalFactors.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Crossover/RmxCrossover.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Normal_distribution_energy/Low_energy/uniform_distribution_location/u30-low.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
+        <state relative-caret-position="-177" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/NaturalSelection/MixednaturalSelection.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n150-far-result.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+        <state relative-caret-position="-1841" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u20-result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u40-result.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/a.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u70-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u100-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/uniform_distribution_location/u30-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/Experiment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="330">
+          <caret line="22" column="67" lean-forward="true" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/nio/file/CopyOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/n200-near-result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/Scenario1/Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/Scenario1/Normal_distribution_energy/High_energy/uniform_distribution_location/u20-high-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Normal_distribution_energy/Low_energy/uniform_distribution_location/u80-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-687" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Normal_distribution_energy/Low_energy/uniform_distribution_location/u90-low.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u100.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-987" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data1/Uniform_distribution_energy/uniform_distribution_location/u90.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#euclideDistance#0;class#Utils#0" />
+            <element signature="method#Reverse#0;class#Utils#0" />
+            <element signature="method#sort#0;class#Utils#0" />
+            <element signature="method#recursiveClone#0;class#Utils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/ImplementScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/Scenario2/Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1361" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/Scenario2/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result6/Scenario2/Normal_distribution_energy/Low_energy/uniform_distribution_location/u100-low-result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experimentv2/Scenario2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/Utils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/ServicesStation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="77" column="86" selection-start-line="77" selection-start-column="86" selection-end-line="77" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/MC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/FileIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -825,70 +943,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="855">
+          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/a.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/b.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Framework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="78" selection-start-line="56" selection-start-column="78" selection-end-line="56" selection-end-column="78" />
-          <folding>
-            <element signature="method#euclideDistance#0;class#Utils#0" />
-            <element signature="method#Reverse#0;class#Utils#0" />
-            <element signature="method#sort#0;class#Utils#0" />
-            <element signature="method#recursiveClone#0;class#Utils#0" />
-            <element signature="method#coppyContent#0;class#Utils#0" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/IOParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="15" column="106" lean-forward="true" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment/ExperimentAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="83" lean-forward="true" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n200-far-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/Result5/Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
