@@ -1,21 +1,22 @@
 package com.hust.msolab.newmodel.INMA.Utilities;
 
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
-import com.hust.msolab.newmodel.GA.Utilities.IOParser;
 import com.hust.msolab.newmodel.GA.Utilities.Utils;
 import com.hust.msolab.newmodel.INMA.Device.Sensor;
 import org.javatuples.Pair;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class INMAFileIO extends IOParser {
+public class INMAFileIO {
     public Sensor[] readData(String filePath) throws IOException {
         Scanner scanner = new Scanner(new File(filePath));
-        Sensor[] sensors = new Sensor[Factors.NUM_OF_SENSORS + 1];
+        List<Sensor> sensorList = new ArrayList<>();
 
         List<Pair<Double, Double>> data = new ArrayList<>();
         data.add(new Pair(Factors.SERVICE_STATION_X, Factors.SERVICE_STATION_Y));
@@ -25,6 +26,7 @@ public class INMAFileIO extends IOParser {
 
         Factors.NUM_OF_SENSORS = 0;
 
+        sensorList.add(null);
         while (scanner.hasNextLine()){
             try{
                 double x = scanner.nextDouble();
@@ -34,7 +36,7 @@ public class INMAFileIO extends IOParser {
 
                 data.add(new Pair(x, y));
                 Factors.NUM_OF_SENSORS ++;
-                sensors[Factors.NUM_OF_SENSORS] = new Sensor(Factors.NUM_OF_SENSORS, e);
+                sensorList.add(new Sensor(Factors.NUM_OF_SENSORS, e));
                 Factors.REMAINING_ENERGIES.add(e);
             } catch (Exception e){
                 System.out.println("EOF reached!");
@@ -43,6 +45,8 @@ public class INMAFileIO extends IOParser {
         }
         scanner.close();
 
+        int numOfNode = Factors.NUM_OF_SENSORS + 1;
+        Factors.distances = new double[numOfNode][numOfNode];
         for(int i = 0 ; i < data.size() - 1 ; i ++){
             for(int j = i + 1 ; j < data.size() ; j ++){
                 Factors.distances[i][j] = (i != j) ? Utils.euclideDistance(data.get(i), data.get(j)) : 0.0;
@@ -50,6 +54,20 @@ public class INMAFileIO extends IOParser {
             }
         }
 
-        return sensors;
+        return sensorList.toArray(new Sensor[numOfNode]);
+    }
+
+    public void output(List<Integer> schedule, int numOfDeath, double executionTime, String outputFilePath) throws IOException{
+        File resultFile = new File(outputFilePath);
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
+
+        writer.write("Schedule:");
+        for(Integer sensor : schedule){
+            writer.write(sensor + " ");
+        }
+        writer.write("\nNumber of Deaths: " + numOfDeath);
+        writer.write("\nExecution time: " + executionTime);
+
+        writer.close();
     }
 }

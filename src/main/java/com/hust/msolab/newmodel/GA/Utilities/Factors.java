@@ -39,8 +39,8 @@ public class Factors {
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
 
     // Choosing data file for all data experiment
-    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result6/Scenario3";
+    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result6/Scenario2";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-near.txt";
@@ -50,7 +50,7 @@ public class Factors {
     public static String JMETAL_OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/JMetal-Result";
 
     // INMA
-    public static final double DURING = 4000000;
+    public static final double DURING = 70000;
     public static final double TIME_INTERVAL = 10.0;
     // =========================================================================================================================================================================
 

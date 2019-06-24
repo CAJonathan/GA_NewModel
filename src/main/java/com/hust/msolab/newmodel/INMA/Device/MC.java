@@ -64,11 +64,17 @@ public class MC {
     }
 
     public boolean canReturnToSSAfterCharge(Sensor sensor){
-        double arrivalTime = Factors.distances[location][sensor.getId()] / Factors.WCE_V;
-        double eAfterCharge = RE - Factors.WCE_P_MOVE * Factors.distances[location][sensor.getId()] - (Factors.SENSOR_Emax - (sensor.getE() - arrivalTime * sensor.getP()));
-        double eNeededToReturnToSS = Factors.WCE_P_MOVE * Factors.distances[sensor.getId()][0];
+        try{
+            double arrivalTime = Factors.distances[location][sensor.getId()] / Factors.WCE_V;
+            double eAfterCharge = RE - Factors.WCE_P_MOVE * Factors.distances[location][sensor.getId()] - (Factors.SENSOR_Emax - (sensor.getE() - arrivalTime * sensor.getP()));
+            double eNeededToReturnToSS = Factors.WCE_P_MOVE * Factors.distances[sensor.getId()][0];
 
-        return eAfterCharge >= eNeededToReturnToSS;
+            return eAfterCharge >= eNeededToReturnToSS;
+        }catch(Exception e){
+            System.out.println(null == sensor);
+        }
+
+        return true;
     }
 
     public void schedule(Sensor sensor, double time, double lastTs){

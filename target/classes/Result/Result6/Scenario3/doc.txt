@@ -1,0 +1,3 @@
+Kịch bản 3: giữ nguyên vận tốc v = 5, chạy các bộ 100 nút với Emc thay đổi:
+Emc in {40000, 60000, 80000, 100000}
+Trong file kết quả có 6 đường đi tốt nhất / tồi nhất tương ứng với mỗi Emc ở trên

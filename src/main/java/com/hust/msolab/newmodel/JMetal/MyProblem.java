@@ -1,7 +1,7 @@
 package com.hust.msolab.newmodel.JMetal;
 
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
-import com.hust.msolab.newmodel.GA.Utilities.IOParser;
+import com.hust.msolab.newmodel.GA.Utilities.GAFileIO;
 import org.uma.jmetal.solution.PermutationSolution;
 
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.io.IOException;
 public class MyProblem extends MyAbstractSolution {
 
     public MyProblem() throws IOException {
-        IOParser parser = new IOParser();
+        GAFileIO parser = new GAFileIO();
         parser.parseData(Factors.INPUT_FILE_PATH);
 
         setNumberOfVariables(Factors.NUM_OF_SENSORS);

@@ -16,7 +16,7 @@ public class ImplementScenario {
         System.out.println("Directory created!");
         System.out.println("Running Experiment:");
 
-        scenario = new Scenario2();
+        scenario = new Scenario1();
         scenario.initFixedValues();
         scenario.run(Factors.INPUT_FOLDER);
     }

@@ -1,5 +1,6 @@
 package com.hust.msolab.newmodel.INMA;
 
+import com.hust.msolab.newmodel.Algorithm;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
 import com.hust.msolab.newmodel.INMA.Device.MC;
 import com.hust.msolab.newmodel.INMA.Device.Message;
@@ -9,15 +10,24 @@ import com.hust.msolab.newmodel.INMA.Utilities.INMAFileIO;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class Framework {
+public class Framework extends Algorithm {
 
-    public void run(String inputFilePath) throws IOException {
+    private Sensor[] sensors;
+    private List<Integer> schedule;
+    private int numOfDeaths;
+
+    public Framework(String inputFilePath) throws IOException{
+        this.executionTime = 0;
+        schedule = new LinkedList<>();
         INMAFileIO reader = new INMAFileIO();
+        sensors = reader.readData(inputFilePath);
+    }
 
-        Sensor[] sensors = reader.readData(inputFilePath);
+    public void solve() {
         MC mc = new MC(0);
         ServicesStation servicesStation = new ServicesStation();
         List<Sensor> validNodes = new ArrayList<>();
@@ -43,6 +53,7 @@ public class Framework {
                 }
             }
 
+            long startTime = System.nanoTime();
             if(!validNodes.isEmpty() && !mc.requestPool().isEmpty() && !mc.act()){
                 List<Integer> Z = new ArrayList<>();
                 Map<Integer, Integer> causeOfDeaths = servicesStation.calculateDepletions(time, mc.getLocation(), validNodes);
@@ -59,6 +70,7 @@ public class Framework {
                         mc.schedule(sensors[nodeHavingMinTcharge], time, lastestMessage.getTs());
                         sensors[nodeHavingMinTcharge].setE(Factors.SENSOR_Emax);
                         mc.popFromRequestPool(nodeHavingMinTcharge);
+                        schedule.add(nodeHavingMinTcharge);
                         continue;
                     }
                 } else{
@@ -68,6 +80,7 @@ public class Framework {
                         mc.schedule(sensors[nodeCausesLeastDeaths], time, lastestMessage.getTs());
                         sensors[nodeCausesLeastDeaths].setE(Factors.SENSOR_Emax);
                         mc.popFromRequestPool(nodeCausesLeastDeaths);
+                        schedule.add(nodeCausesLeastDeaths);
                         continue;
                     }
                 }
@@ -78,19 +91,22 @@ public class Framework {
                     mc.schedule(sensors[nearestSensorId], time, lastestMessage.getTs());
                     sensors[nearestSensorId].setE(Factors.SENSOR_Emax);
                     mc.popFromRequestPool(nearestSensorId);
-                    continue;
+                    schedule.add(nearestSensorId);
                 } else{
                     mc.replenish();
                 }
             }
+            this.executionTime += System.nanoTime() - startTime;
         }
 
-        for(Sensor sensor : sensors){
-            if(null != sensor){
-                System.out.print(sensor.getId() + " ");
-            }
-        }
+        this.numOfDeaths = Factors.NUM_OF_SENSORS - validNodes.size();
+    }
 
-        System.out.println("\nDeaths: " + (Factors.NUM_OF_SENSORS - validNodes.size()));
+    public List<Integer> getSchedule() {
+        return schedule;
+    }
+
+    public int getNumOfDeaths() {
+        return numOfDeaths;
     }
 }

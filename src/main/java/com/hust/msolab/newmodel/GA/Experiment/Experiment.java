@@ -2,11 +2,12 @@ package com.hust.msolab.newmodel.GA.Experiment;
 
 import com.hust.msolab.newmodel.GA.Algorithm.Individual;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
-import com.hust.msolab.newmodel.GA.Utilities.IOParser;
-import com.hust.msolab.newmodel.GA.Algorithm.Algorithm;
+import com.hust.msolab.newmodel.GA.Utilities.GAFileIO;
+import com.hust.msolab.newmodel.GA.Algorithm.GeneticAlgorithm;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Experiment {
@@ -21,15 +22,17 @@ public class Experiment {
         try{
             List<Individual> goodIndividuals = new ArrayList<>();
             List<Individual> badIndividuals = new ArrayList<>();
+            List<Double> executionTimes = new LinkedList<>();
 
             System.out.println(inputFilePath);
-            IOParser parser = new IOParser();
+            GAFileIO parser = new GAFileIO();
             parser.parseData(inputFilePath);
             for(int i = 0 ; i < LOOP ; i ++){
-                Algorithm ag = new Algorithm();
+                GeneticAlgorithm ag = new GeneticAlgorithm();
                 ag.solve();
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
+                executionTimes.add(ag.getExecutionTime());
                 System.out.print("====>");
             }
             System.out.println();
@@ -38,8 +41,9 @@ public class Experiment {
             Collections.sort(badIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
             Individual bestInd = goodIndividuals.get(0);
             Individual worstInd = badIndividuals.get(badIndividuals.size() - 1);
+            Double executionTimeAvg = executionTimes.stream().mapToDouble(Double::doubleValue).average().getAsDouble();
 
-            parser.output(bestInd, worstInd, outputFilePath);
+            parser.output(bestInd, executionTimeAvg, outputFilePath);
 
         } catch(Exception e){
             e.printStackTrace();

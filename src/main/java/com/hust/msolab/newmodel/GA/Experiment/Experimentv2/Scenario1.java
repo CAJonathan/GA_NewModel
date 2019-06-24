@@ -9,10 +9,10 @@ import java.io.IOException;
 
 public class Scenario1 extends Scenario {
 
-    Integer[] numOfSensor;
+    Double[] speeds;
 
     public void initFixedValues(){
-        numOfSensor = new Integer[]{20, 40, 70, 100};
+        speeds = new Double[]{2.0, 5.0, 7.0, 10.0, 15.0, 20.0};
     }
 
     public void run(String dataFolder) throws IOException {
@@ -20,19 +20,15 @@ public class Scenario1 extends Scenario {
         for(File subFile : folder.listFiles()){
             if(subFile.isFile()){
                 String fileName = subFile.getName();
-                boolean allowToRun = false;
-                for(Integer num : numOfSensor){
-                    if(fileName.contains(num.toString() + "-") || fileName.contains(num.toString() + ".")){
-                        allowToRun = true;
-                    }
-                }
-
-                if(allowToRun){
+                if(fileName.contains(100 + "-") || fileName.contains(100 + ".")){
                     String inputFilePath = subFile.getAbsolutePath();
                     String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER)
                             .replace(".", "-result.");
                     Utils.copyContent(inputFilePath, outputFilePath);
-                    Experiment.run(inputFilePath, outputFilePath);
+                    for(Double v : speeds){
+                        Factors.WCE_V = v;
+                        Experiment.run(inputFilePath, outputFilePath);
+                    }
                 }
             } else{
                 run(dataFolder + "/" + subFile.getName());
