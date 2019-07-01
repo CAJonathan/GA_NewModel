@@ -9,10 +9,10 @@ import java.io.IOException;
 
 public class Scenario2 extends Scenario {
 
-    Double[] energys;
+    Double[] speeds;
 
     public void initFixedValues(){
-        energys = new Double[]{40000.0, 60000.0, 80000.0, 100000.0};
+        speeds = new Double[]{2.0, 5.0, 7.0, 10.0, 15.0, 20.0};
     }
 
     public void run(String dataFolder) throws IOException {
@@ -25,8 +25,8 @@ public class Scenario2 extends Scenario {
                     String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER)
                             .replace(".", "-result.");
                     Utils.copyContent(inputFilePath, outputFilePath);
-                    for(Double e : energys){
-                        Factors.WCE_Emc = e;
+                    for(Double v : speeds){
+                        Factors.WCE_V = v;
                         Experiment.run(inputFilePath, outputFilePath);
                     }
                 }

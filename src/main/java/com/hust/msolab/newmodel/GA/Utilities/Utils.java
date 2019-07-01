@@ -14,17 +14,17 @@ public class Utils {
         return Math.sqrt(Math.pow(point1.getValue0() - point2.getValue0(), 2) + Math.pow(point1.getValue1() - point2.getValue1(), 2));
     }
 
-    public static List<Integer> Reverse(List<Integer> chromosome, int start, int end) {
+    public static List<Integer> Reverse(List<Integer> list, int start, int end) {
         int i = start;
         int j = end;
 
         while(i < j) {
-            Collections.swap(chromosome, i, j);
+            Collections.swap(list, i, j);
             i ++;
             j --;
         }
 
-        return chromosome;
+        return list;
     }
 
     public static List<Individual> sort(List<Individual> individuals){

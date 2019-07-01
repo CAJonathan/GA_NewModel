@@ -39,19 +39,23 @@ public class Factors {
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
 
     // Choosing data file for all data experiment
-    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data1/Uniform_distribution_energy";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result6/Scenario2";
+    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
+            "Data/Data1/Uniform_distribution_energy";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
+            "Result/ResultINMA";
 
     // Choosing data file for single experiment
-    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data2/Uniform_distribution_energy/normal_distribution_location/n200-near.txt";
-    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/n200-near-result.txt";
+    public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
+            "Data/Data1/Uniform_distribution_energy/normal_distribution_location/n90-far.txt";
+    public static String OUTPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
+            "Result/ResultINMA/Scenario1/normal_distribution_location/n90-far-inmaresult.txt";
 
     // Jmetal
     public static String JMETAL_OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/JMetal-Result";
 
     // INMA
-    public static final double DURING = 70000;
-    public static final double TIME_INTERVAL = 10.0;
+    public static double DURING = 18236.19;
+    public static double TIME_INTERVAL = 10.0;
     // =========================================================================================================================================================================
 
 
@@ -64,8 +68,10 @@ public class Factors {
     public static double WCE_P_MOVE = 1;
     public static double WCE_Emc = 80000;
     public static double WCE_CHARGING_RATE = 10.0;
+
     public static double SERVICE_STATION_X = 0;
     public static double SERVICE_STATION_Y = 0;
+
     public static double SENSOR_Emin = 540;
     public static double SENSOR_Emax = 8000;
     public static final double SENSOR_E_THRES = 1500.0;
@@ -76,4 +82,11 @@ public class Factors {
     public static List<Double> P;
     public static double[][] distances;
     // =========================================================================================================================================================================
+
+    // ========================This part is for data generation and visulization. Never make any change unless you know exactly what you're going to do ========================
+    public static double DOT_SIZE = 10.0;
+    public static int CHART_IMAGE_WIDTH = 1280;
+    public static int CHART_IMAGE_HEIGHT = 1280;
+    public static int CHART_PANEL_WIDTH = 1280;
+    public static int CHART_PANEL_HEIGHT = 1280;
 }
