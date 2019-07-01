@@ -3,13 +3,13 @@ package Config
 import scala.collection.mutable
 
 class Properties {
-  val properties: mutable.Map[String, Object] = mutable.Map()
+  val properties: mutable.Map[String, Any] = mutable.Map()
 
-  def addProperties(key: String, value: Object): Unit = {
+  def addProperties(key: String, value: Any): Unit = {
     properties += (key -> value)
   }
 
-  def getAsObject(key: String): Object = {
+  def getAsObject(key: String): Any = {
     properties(key)
   }
 

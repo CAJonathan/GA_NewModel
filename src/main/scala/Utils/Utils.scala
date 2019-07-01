@@ -2,7 +2,7 @@ package Utils
 
 import scala.util.Random
 
-class Utils {
+object Utils {
 
   val generator: Random = new Random()
 

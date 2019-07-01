@@ -40,9 +40,11 @@ public class Factors {
 
     // Choosing data file for all data experiment
     public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
-            "Data/Data1/Uniform_distribution_energy";
+            "Data/Data3";
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
             "Result/ResultINMA";
+    public static String PICTURE_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
+            "Image/Image2";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
@@ -75,6 +77,8 @@ public class Factors {
     public static double SENSOR_Emin = 540;
     public static double SENSOR_Emax = 8000;
     public static final double SENSOR_E_THRES = 1500.0;
+
+    public static double AREA_SIZE = 1000.0;
 
     // Store data scenario
     public static List<Double> REMAINING_ENERGIES;
