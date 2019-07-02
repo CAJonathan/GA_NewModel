@@ -44,7 +44,7 @@ public class Factors {
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
             "Result/ResultINMA";
     public static String PICTURE_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
-            "Image/Image2";
+            "Image/Image3";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +

@@ -1,6 +1,6 @@
 import java.awt.{Color, Dimension}
 
-import Tools.Drawer
+import Abstract.Drawer
 import javax.swing.JPanel
 import org.jfree.chart.axis.NumberAxis
 import org.jfree.chart.plot.{PlotOrientation, XYPlot}

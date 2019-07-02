@@ -1,4 +1,4 @@
-import Tools.SensorAreaDrawer
+import DataGeneration.SensorAreaDrawer
 
 object testdraw {
   def main(args: Array[String]): Unit={
