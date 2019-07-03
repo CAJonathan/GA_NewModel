@@ -10,6 +10,13 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ *  Class chung dùng để chạy thực nghiệm một file dữ liệu. trên mỗi file, thuật toán GA được chạy
+ * nhiều lần và kết quả tốt nhất sẽ được lấy ra
+ *
+ * @author sondn on 07/05/2019
+ */
+
 public class Experiment {
 
     public static int LOOP = 30;

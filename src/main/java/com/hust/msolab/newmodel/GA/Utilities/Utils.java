@@ -8,6 +8,12 @@ import java.nio.file.*;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * Class chứa một vài hàm tiện ích
+ *
+ * @author sondn on 30/04/2019
+ */
+
 public class Utils {
 
     public static double euclideDistance(Pair<Double, Double> point1, Pair<Double, Double> point2){

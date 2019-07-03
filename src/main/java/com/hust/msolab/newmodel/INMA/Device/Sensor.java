@@ -4,6 +4,12 @@ import com.hust.msolab.newmodel.GA.Utilities.Factors;
 
 import java.util.Random;
 
+/**
+ * Class đại diện cho sensor trong mạng cảm biến dùng trong thuật toán IMNA
+ *
+ * @author sondn on 05/06/2019
+ */
+
 public class Sensor {
 
     private int id;

@@ -2,6 +2,13 @@ package com.hust.msolab.newmodel.GA.Utilities;
 
 import java.util.List;
 
+/**
+ *  Class cực kì quan trọng, chứa tất cả các thông số sử dụng trong quá trình deploy
+ * hệ thống (các tham số thuật toán, các tham số chạy thực nghiệm, ...)
+ *
+ * @author sondn on 30/04/2019
+ */
+
 public class Factors {
     // =========================================================================Only change for experiment=========================================================================
     // For genetic algorithm

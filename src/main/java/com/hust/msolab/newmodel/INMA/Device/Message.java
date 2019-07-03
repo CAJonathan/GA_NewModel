@@ -1,5 +1,11 @@
 package com.hust.msolab.newmodel.INMA.Device;
 
+/**
+ * Class đại diện cho Message được gửi đi từ các sensor trong mạng cảm biến
+ *
+ * @author sondn on 05/06/2019
+ */
+
 public class Message {
 
     private int id;

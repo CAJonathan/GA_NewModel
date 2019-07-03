@@ -9,6 +9,12 @@ import com.hust.msolab.newmodel.GA.Utilities.Factors;
 import com.hust.msolab.newmodel.GA.Utilities.Utils;
 import org.javatuples.Pair;
 
+/**
+ * Class thuộc thuật toán GA, đại diện cho một quần thể (chứa nhiều cá thể).
+ *
+ * @author sondn 30/04/2019
+ */
+
 public class Population {
 
     private List<Individual> individuals;

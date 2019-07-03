@@ -6,6 +6,12 @@ import com.hust.msolab.newmodel.GA.Utilities.Utils;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Class cho phép chạy thực nghiệm một kcihj bản đã được dựng trước
+ *
+ * @author sondn on 05/07/2019
+ */
+
 public class ImplementScenario {
     private static Scenario scenario;
 

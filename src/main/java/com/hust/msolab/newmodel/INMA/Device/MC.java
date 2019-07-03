@@ -5,6 +5,13 @@ import com.hust.msolab.newmodel.GA.Utilities.Factors;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  Class đại diện cho MC trong thuật toán lập lịch sạc online,
+ * MC chứa một vài hàm tính toán cơ bản của MC trong thực tế
+ *
+ * @author sondn on 05/06/2019
+ */
+
 public class MC {
 
     private double movingTime;

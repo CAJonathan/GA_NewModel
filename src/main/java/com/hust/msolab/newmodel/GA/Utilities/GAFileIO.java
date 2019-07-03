@@ -8,6 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ *  Class quy định các đọc dữ liệu đầu vào và cách thức output kết quả cho thuật toán GA
+ *
+ * @author sondn 30/04/2019
+ */
+
 public class GAFileIO {
 
     public void output(Individual bestInd, double executionTime, String outputFilePath) throws IOException{

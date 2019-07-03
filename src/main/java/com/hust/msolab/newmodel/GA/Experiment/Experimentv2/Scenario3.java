@@ -7,6 +7,14 @@ import com.hust.msolab.newmodel.GA.Utilities.Utils;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ *  Class kịch bản chạy thực nghiệm: thay đổi năng lượng tố đa Emc của mỗi sensor,
+ * giữ nguyên các tham số khác và chạy thực nghiệm trên tất cả các file trong folder
+ * dữ liệu
+ *
+ * @author sondn on 07/05/2019
+ */
+
 public class Scenario3 extends Scenario {
 
     Double[] energys;

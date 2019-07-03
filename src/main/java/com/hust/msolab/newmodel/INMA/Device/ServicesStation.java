@@ -7,6 +7,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Class đại diện cho services station trong mạng cảm biến dùng trong thuật toán IMNA
+ *
+ * @author sondn on 05/06/2019
+ */
+
 public class ServicesStation {
 
     private List<Message>[] messagesQueues;

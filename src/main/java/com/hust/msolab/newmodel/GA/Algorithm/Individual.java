@@ -4,6 +4,12 @@ import com.hust.msolab.newmodel.GA.Algorithm.GAUtils.Factories.Factory;
 import org.javatuples.Pair;
 import java.util.*;
 
+/**
+ * Class đại diện cho một cá thể trong quần thể
+ *
+ * @author sondn on 30/04/2019
+ */
+
 public class Individual {
     private List<Integer> chromosome;
     private double fitnessScore;

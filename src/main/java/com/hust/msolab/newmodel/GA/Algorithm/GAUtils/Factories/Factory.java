@@ -19,6 +19,13 @@ import org.javatuples.Pair;
 
 import java.util.List;
 
+/**
+ *  Factory chung của các toán tử trong thuật toán GA, mỗi toán tử mới được viết thêm đều phải
+ * được đăng kí trong các hàm tương ứng với toán tử đó
+ *
+ * @author sondn on 30/04/2019
+ */
+
 public class Factory {
 
     public double fitness(List<Integer> chromosome){
