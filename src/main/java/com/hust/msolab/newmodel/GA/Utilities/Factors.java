@@ -50,8 +50,6 @@ public class Factors {
             "Data/Data3";
     public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
             "Result/ResultINMA";
-    public static String PICTURE_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
-            "Image/Image3";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/" +
@@ -95,9 +93,16 @@ public class Factors {
     // =========================================================================================================================================================================
 
     // ========================This part is for data generation and visulization. Never make any change unless you know exactly what you're going to do ========================
+    public static String DATA_GENETARED_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data4";
+    public static String IMAGE_GENETARED_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Image/Image4";
+
     public static double DOT_SIZE = 10.0;
     public static int CHART_IMAGE_WIDTH = 1280;
     public static int CHART_IMAGE_HEIGHT = 1280;
     public static int CHART_PANEL_WIDTH = 1280;
     public static int CHART_PANEL_HEIGHT = 1280;
+
+    private Factors(){
+
+    }
 }

@@ -117,8 +117,8 @@ object FolderOrganizer {
 
     }
 
-    val dataFolder = new File(Factors.INPUT_FOLDER + locationInFolder)
-    val imageFolder = new File(Factors.PICTURE_FOLDER + locationInFolder)
+    val dataFolder = new File(Factors.DATA_GENETARED_FOLDER + locationInFolder)
+    val imageFolder = new File(Factors.IMAGE_GENETARED_FOLDER + locationInFolder)
 
     if(!dataFolder.exists()) {
       dataFolder.mkdirs()

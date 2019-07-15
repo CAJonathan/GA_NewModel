@@ -8,6 +8,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/**
+ *  Lai ghép một điểm cắt. Chọn ra một điểm cắt trên nhiễm sắc thể cha, chia nst cha thành 2 đoạn. Copy đoạn
+ * thứ nhất vào nst con, các gene trong nhiễm sắc thể con còn thiếu thì lấy từ nst mẹ theo đúng thứ tự ta được
+ * một nhiễm sắc thể con. làm lại quá trình trên nhưng thay đổi vai trò của cha mẹ, ta được nst con tiếp theo.
+ * Ví dụ:
+ * p1 = (1, 4, 3, 6, 7, 2, 5)
+ * p2 = (4, 3, 7, 5, 1, 2, 6)
+ * Chọn được điểm cắt là 3, ta được 2 nst con:
+ * c1 = (1, 4, 3, 7, 5, 2, 6)
+ * c2 = (4, 3, 7, 1, 6, 2, 5)
+ */
+
 public class SimpleCrossover implements CrossoverOperator {
 
     public Pair<Individual, Individual> execute(Individual indDad, Individual indMom){
