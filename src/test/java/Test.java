@@ -13,8 +13,9 @@ import java.util.Scanner;
 
 public class Test {
 
-    public static void main(String[] args) throws IOException{
-        System.out.println("333");
+    public static void main(String[] args) throws Exception{
+        Class cls = Class.forName("com.hust.msolab.newmodel.GA.Utilities.Factors");
+        Field f = cls.getField("GA_LOOP");
     }
 
 }

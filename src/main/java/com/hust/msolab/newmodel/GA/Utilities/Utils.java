@@ -6,6 +6,7 @@ import org.javatuples.Pair;
 import java.io.*;
 import java.nio.file.*;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -35,6 +36,7 @@ public class Utils {
 
     public static List<Individual> sort(List<Individual> individuals){
         Collections.sort(individuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
+//        Collections.sort(individuals, (i1, i2) -> Comparator.comparingDouble(i1.getFitnessScore(), i2.getFitnessScore()));
         return individuals;
     }
 
