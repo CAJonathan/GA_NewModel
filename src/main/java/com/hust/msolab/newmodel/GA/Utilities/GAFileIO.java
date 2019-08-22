@@ -54,6 +54,49 @@ public class GAFileIO {
         writer.close();
     }
 
+    public void output(Individual bestInd, Individual worstInd, double mean, double stdvt, String outputFilePath) throws IOException{
+        File resultFile = new File(outputFilePath);
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
+
+        List<Integer> bestPath = bestInd.getChromosome();
+        for(Integer sensor : bestPath){
+            writer.write(sensor + " ");
+        }
+
+        writer.write("\nBest fitness: " + String.format("%.2f\n", bestInd.getFitnessScore()));
+
+        List<Integer> worstPath = worstInd.getChromosome();
+        for(Integer sensor : worstPath){
+            writer.write(sensor + " ");
+        }
+
+        writer.write("\nWorst fitness: " + String.format("%.2f\n", worstInd.getFitnessScore()));
+
+        writer.write("\nMean: " + String.format("%.2f\n", mean));
+        writer.write("\nStandard deviation: " + String.format("%.2f\n", stdvt));
+
+        writer.close();
+    }
+
+    public void output(List<Individual> inds, double mean, double stdvt, String outputFilePath) throws IOException{
+        File resultFile = new File(outputFilePath);
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
+
+        for(Individual ind : inds){
+            List<Integer> bestPath = ind.getChromosome();
+            for(Integer sensor : bestPath){
+                writer.write(sensor + " ");
+            }
+            writer.write("\nFitness: " + String.format("%.2f\n", ind.getFitnessScore()));
+
+
+            writer.write("\n\nMean: " + String.format("%.2f\n", mean));
+            writer.write("\nStandard deviation: " + String.format("%.2f\n", stdvt));
+        }
+
+        writer.close();
+    }
+
     public void parseData(String filePath) throws IOException{
         List<Pair<Double, Double>> pointsSet = readData(filePath);
         int numOfNode = Factors.NUM_OF_SENSORS + 1;
@@ -86,8 +129,8 @@ public class GAFileIO {
             try{
                 double x = scanner.nextDouble();
                 double y = scanner.nextDouble();
-                double p = scanner.nextDouble();
                 double remainingEnergy = scanner.nextDouble();
+                double p = scanner.nextDouble();
 
                 data.add(new Pair(x, y));
                 Factors.REMAINING_ENERGIES.add(remainingEnergy);

@@ -1,6 +1,7 @@
 package com.hust.msolab.newmodel.GA.Algorithm;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -70,5 +71,9 @@ public class Population {
 
     public Individual badSolution(){
         return individuals.get(individuals.size() - 1);
+    }
+
+    public List<Individual> getIndividuals(){
+        return individuals;
     }
 }

@@ -3,6 +3,8 @@ package com.hust.msolab.newmodel.GA.Algorithm;
 import com.hust.msolab.newmodel.Algorithm;
 import com.hust.msolab.newmodel.GA.Utilities.Factors;
 
+import java.util.List;
+
 /**
  *  Class thuật toán GA truyền thống, tức là mỗi thế hệ điều phải trải qua các bước lai ghép,
  * đột biến và chọn lọc
@@ -14,10 +16,11 @@ public class GeneticAlgorithm extends Algorithm {
 
     private Individual bestIndividual;
     private Individual worstIndividual;
+    private Population population;
 
     public void solve() {
         long startTime = System.nanoTime();
-        Population population = new Population();
+        population = new Population();
         for (int i = 0; i < Factors.GA_LOOP; i++) {
             population.crossover();
             population.mutate();
@@ -34,4 +37,8 @@ public class GeneticAlgorithm extends Algorithm {
     }
 
     public Individual getBadSolution(){return worstIndividual;}
+
+    public List<Individual> getAllSolution(){
+        return population.getIndividuals();
+    }
 }

@@ -34,8 +34,11 @@ public class Experiment {
             System.out.println(inputFilePath);
             GAFileIO parser = new GAFileIO();
             parser.parseData(inputFilePath);
+
+            GeneticAlgorithm ag = new GeneticAlgorithm();
+
             for(int i = 0 ; i < LOOP ; i ++){
-                GeneticAlgorithm ag = new GeneticAlgorithm();
+                ag = new GeneticAlgorithm();
                 ag.solve();
                 goodIndividuals.add(ag.getSolution());
                 badIndividuals.add(ag.getBadSolution());
@@ -44,13 +47,31 @@ public class Experiment {
             }
             System.out.println();
 
+            List<Individual> solutions = ag.getAllSolution();
             Collections.sort(goodIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
             Collections.sort(badIndividuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
             Individual bestInd = goodIndividuals.get(0);
             Individual worstInd = badIndividuals.get(badIndividuals.size() - 1);
             Double executionTimeAvg = executionTimes.stream().mapToDouble(Double::doubleValue).average().getAsDouble();
 
-            parser.output(bestInd, executionTimeAvg, outputFilePath);
+            double mean = 0.0;
+            double std = 0.0;
+
+            for(Individual solution : goodIndividuals){
+                mean += solution.getFitnessScore();
+            }
+            mean /= goodIndividuals.size();
+
+            for(Individual solution : goodIndividuals){
+                std += Math.pow(solution.getFitnessScore() - mean, 2);
+            }
+            std /= goodIndividuals.size();
+
+            if(inputFilePath.contains("30")){
+                parser.output(solutions, mean, std, outputFilePath);
+            } else{
+                parser.output(bestInd, worstInd, mean, std, outputFilePath);
+            }
 
         } catch(Exception e){
             e.printStackTrace();

@@ -36,7 +36,7 @@ public class Utils {
 
     public static List<Individual> sort(List<Individual> individuals){
         Collections.sort(individuals, (i1, i2) ->  Double.compare( i1.getFitnessScore(), i2.getFitnessScore()));
-//        Collections.sort(individuals, (i1, i2) -> Comparator.comparingDouble(i1.getFitnessScore(), i2.getFitnessScore()));
+//        Collections.sort(individuals, (i1, i2) ->  Double.compare( i2.getFitnessScore(), i1.getFitnessScore()));
         return individuals;
     }
 
