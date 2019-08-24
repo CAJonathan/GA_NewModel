@@ -129,8 +129,8 @@ public class GAFileIO {
             try{
                 double x = scanner.nextDouble();
                 double y = scanner.nextDouble();
-                double remainingEnergy = scanner.nextDouble();
                 double p = scanner.nextDouble();
+                double remainingEnergy = scanner.nextDouble();
 
                 data.add(new Pair(x, y));
                 Factors.REMAINING_ENERGIES.add(remainingEnergy);
