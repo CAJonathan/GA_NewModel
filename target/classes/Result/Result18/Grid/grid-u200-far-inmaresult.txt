@@ -1,0 +1,3 @@
+Schedule:11 54 105 163 173 198 142 200 99 136 88 124 44 74 39 97 96 144 
+Number of Deaths: 117
+Execution time: 0.036768

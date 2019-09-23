@@ -29,34 +29,34 @@ public class Scenario4 extends Scenario{
                 Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-inmaresult.txt", 16979.5);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-inmaresult.txt", 16432.8);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n20-high-inmaresult.txt", 16432.8);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-inmaresult.txt", 16577.3);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n30-high-inmaresult.txt", 16577.3);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-inmaresult.txt", 16641.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n40-high-inmaresult.txt", 16641.4);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-inmaresult.txt", 16923.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n70-high-inmaresult.txt", 16923.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-inmaresult.txt", 17292.7);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n80-high-inmaresult.txt", 17292.7);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-inmaresult.txt", 17430.5);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n90-high-inmaresult.txt", 17430.5);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-inmaresult.txt", 17436.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s2-n100-high-inmaresult.txt", 17436.1);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n20-high-inmaresult.txt", 16557.2);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n20-high-inmaresult.txt", 16557.2);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n30-high-inmaresult.txt", 16884.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n30-high-inmaresult.txt", 16884.4);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n40-high-inmaresult.txt", 17033.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n40-high-inmaresult.txt", 17033.4);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n70-high-inmaresult.txt", 17595.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n70-high-inmaresult.txt", 17595.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n80-high-inmaresult.txt", 17557.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n80-high-inmaresult.txt", 17557.4);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n90-high-inmaresult.txt", 17980.2);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n90-high-inmaresult.txt", 17980.2);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s1-n100-high-inmaresult.txt", 18292.9);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/High_energy/normal_distribution_location/s3-n100-high-inmaresult.txt", 18292.9);
 
 
 
@@ -78,34 +78,34 @@ public class Scenario4 extends Scenario{
                 Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium-inmaresult.txt", 16855.8);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 16525.2);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n20-medium-inmaresult.txt", 16525.2);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n30-medium-inmaresult.txt", 16571.7);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n30-medium-inmaresult.txt", 16571.7);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n40-medium-inmaresult.txt", 16776.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n40-medium-inmaresult.txt", 16776.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n70-medium-inmaresult.txt", 17217.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n70-medium-inmaresult.txt", 17217.4);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n80-medium-inmaresult.txt", 17351.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n80-medium-inmaresult.txt", 17351.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n90-medium-inmaresult.txt", 17426.3);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n90-medium-inmaresult.txt", 17426.3);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n100-medium-inmaresult.txt", 17641.7);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s2-n100-medium-inmaresult.txt", 17641.7);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 16551.8);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n20-medium-inmaresult.txt", 16551.8);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 16891.8);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n30-medium-inmaresult.txt", 16891.8);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 17028.6);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n40-medium-inmaresult.txt", 17028.6);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 17597.6);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n70-medium-inmaresult.txt", 17597.6);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 17528.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n80-medium-inmaresult.txt", 17528.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 17668.3);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n90-medium-inmaresult.txt", 17668.3);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s1-n20-medium-inmaresult.txt", 18490.0);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Medium_energy/normal_distribution_location/s3-n100-medium-inmaresult.txt", 18490.0);
 
 
 
@@ -127,34 +127,34 @@ public class Scenario4 extends Scenario{
                 Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low-inmaresult.txt", 16946.7);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 16526.8);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n20-low-inmaresult.txt", 16526.8);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n30-low-inmaresult.txt", 16638.8);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n30-low-inmaresult.txt", 16638.8);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n40-low-inmaresult.txt", 16702.7);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n40-low-inmaresult.txt", 16702.7);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n70-low-inmaresult.txt", 17036.2);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n70-low-inmaresult.txt", 17036.2);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n80-low-inmaresult.txt", 17254.9);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n80-low-inmaresult.txt", 17254.9);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n90-low-inmaresult.txt", 17293.3);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n90-low-inmaresult.txt", 17293.3);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n100-low-inmaresult.txt", 17621.2);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s2-n100-low-inmaresult.txt", 17621.2);
 
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 16589.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n20-low-inmaresult.txt", 16589.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 16871.9);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n30-low-inmaresult.txt", 16871.9);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 17057.7);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n40-low-inmaresult.txt", 17057.7);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 17423.0);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n70-low-inmaresult.txt", 17423.0);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 17968.3);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n80-low-inmaresult.txt", 17968.3);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 18098.1);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n90-low-inmaresult.txt", 18098.1);
         properties.addProperty(Factors.INPUT_FOLDER + "/Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-result.txt",
-                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s1-n20-low-inmaresult.txt", 18499.4);
+                Factors.OUTPUT_FOLDER + "Normal_distribution_energy/Low_energy/normal_distribution_location/s3-n100-low-inmaresult.txt", 18499.4);
         
         
         
@@ -220,31 +220,31 @@ public class Scenario4 extends Scenario{
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-result.txt",
                 Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 16766.4);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n30-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 16731.6);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n30-far-inmaresult.txt", 16731.6);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n40-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 16893.1);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n40-far-inmaresult.txt", 16893.1);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n70-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 17787.4);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n70-far-inmaresult.txt", 17787.4);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n80-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 17620.8);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n80-far-inmaresult.txt", 17620.8);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n90-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 17962.6);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n90-far-inmaresult.txt", 17962.6);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n100-far-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-far-inmaresult.txt", 18490.7);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n100-far-inmaresult.txt", 18490.7);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-result.txt",
                 Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16354.7);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n30-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16466.7);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n30-near-inmaresult.txt", 16466.7);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n40-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16484.6);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n40-near-inmaresult.txt", 16484.6);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n70-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16784.4);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n70-near-inmaresult.txt", 16784.4);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n80-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16762.1);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n80-near-inmaresult.txt", 16762.1);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n90-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16834.9);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n90-near-inmaresult.txt", 16834.9);
         properties.addProperty(Factors.INPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n100-near-result.txt",
-                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n20-near-inmaresult.txt", 16896.9);
+                Factors.OUTPUT_FOLDER + "Uniform_distribution_energy/normal_distribution_location/n100-near-inmaresult.txt", 16896.9);
 
 
 
