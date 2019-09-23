@@ -1,3 +1,3 @@
-Schedule:75 78 40 47 7 54 77 41 34 86 57 84 
+Schedule:88 97 18 60 26 53 61 38 34 86 57 84 
 Number of Deaths: 88
-Execution time: 0.026859
+Execution time: 0.029164
