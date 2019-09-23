@@ -59,7 +59,7 @@ public class INMAFileIO {
 
     public void output(List<Integer> schedule, int numOfDeath, double executionTime, String outputFilePath) throws IOException{
         File resultFile = new File(outputFilePath);
-        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, false));
 
         writer.write("Schedule:");
         for(Integer sensor : schedule){

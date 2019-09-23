@@ -20,7 +20,7 @@ public class Scenario3 extends Scenario {
     Double[] energys;
 
     public void initFixedValues(){
-        energys = new Double[]{40000.0, 60000.0, 80000.0, 100000.0};
+        energys = new Double[]{10000.0, 11000.0, 12000.0, 13000.0, 14000.0, 15000.0, 16000.0, 17000.0, 18000.0, 19000.0, 20000.0};
     }
 
     public void run(String dataFolder) throws IOException {
@@ -28,7 +28,7 @@ public class Scenario3 extends Scenario {
         for(File subFile : folder.listFiles()){
             if(subFile.isFile()){
                 String fileName = subFile.getName();
-                if(fileName.contains(100 + "-") || fileName.contains(100 + ".")){
+//                if(fileName.contains(100 + "-") || fileName.contains(100 + ".")){
                     String inputFilePath = subFile.getAbsolutePath();
                     String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER)
                             .replace(".", "-result.");
@@ -37,7 +37,7 @@ public class Scenario3 extends Scenario {
                         Factors.WCE_Emc = e;
                         Experiment.run(inputFilePath, outputFilePath);
                     }
-                }
+//                }
             } else{
                 run(dataFolder + "/" + subFile.getName());
             }

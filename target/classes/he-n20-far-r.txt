@@ -1,0 +1,24 @@
+12 8 4 1 2 20 11 13 18 17 7 14 9 15 5 19 16 6 10 3 
+Best fitness: 0.08
+12 1 4 2 20 18 7 15 9 14 10 11 6 8 13 17 19 16 5 3 
+Worst fitness: 0.09
+
+Mean: 0.08
+
+Standard deviation: 0.00
+Schedule:
+Number of Deaths: 0
+Execution time: 0.209765Schedule:
+Number of Deaths: 0
+Execution time: 0.207502Schedule:
+Number of Deaths: 0
+Execution time: 0.46055Schedule:
+Number of Deaths: 0
+Execution time: 0.36114812 8 4 1 2 20 11 13 18 17 7 14 9 15 5 19 16 6 10 3 
+Best fitness: 0.08
+1 4 2 11 20 14 15 7 17 18 5 19 13 6 8 12 16 9 3 10 
+Worst fitness: 0.09
+
+Mean: 0.09
+
+Standard deviation: 0.00

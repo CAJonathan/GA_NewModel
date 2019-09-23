@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class Scenario1 extends Scenario {
 
-    public Properties createProperties(){
-        Properties properties = new Properties();
+    public TriProperties createProperties(){
+        TriProperties properties = new TriProperties();
         properties.addProperty(Factors.INPUT_FOLDER + "/normal_distribution_location/n20-far.txt",
                 Factors.OUTPUT_FOLDER + "/Scenario1/normal_distribution_location/n20-far-inmaresult.txt", 5.0, 16751.12);
         properties.addProperty(Factors.INPUT_FOLDER + "/normal_distribution_location/n30-far.txt",

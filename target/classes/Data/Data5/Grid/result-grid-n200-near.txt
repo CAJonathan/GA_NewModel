@@ -1,0 +1,5 @@
+Schedule:190 104 169 71 53 171 52 59 15 67 198 6 145 
+Number of Deaths: 187
+Execution time: 0.225675Schedule:29 140 113 50 41 83 108 160 58 15 198 6 145 
+Number of Deaths: 187
+Execution time: 0.219357
