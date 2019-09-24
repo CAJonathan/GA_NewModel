@@ -35,7 +35,7 @@ public class ExperimentAll {
                 String inputFilePath = subFile.getAbsolutePath();
                 String outputFilePath = inputFilePath.replace(Factors.INPUT_FOLDER, Factors.OUTPUT_FOLDER)
                                                      .replace(".", "-result.");
-                Utils.copyContent(inputFilePath, outputFilePath);
+//                Utils.copyContent(inputFilePath, outputFilePath);
                 Experiment.run(inputFilePath, outputFilePath);
             } else{
                 run(dataFolder + "/" + subFile.getName());
