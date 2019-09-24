@@ -46,8 +46,8 @@ public class Factors {
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
 
     // Choosing data file for all data experiment
-    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data7/";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result18/";
+    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Data5/";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Result/Result19/";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/he-n20-far.txt";
@@ -69,14 +69,14 @@ public class Factors {
     public static double WCE_V = 5;
     public static double WCE_U = 5;
     public static double WCE_P_MOVE = 1;
-    public static double WCE_Emc = 20000;
+    public static double WCE_Emc = 80000;
     public static double WCE_CHARGING_RATE = 10.0;
 
     public static double SERVICE_STATION_X = 0;
     public static double SERVICE_STATION_Y = 0;
 
     public static double SENSOR_Emin = 540;
-    public static double SENSOR_Emax = 8000;
+    public static double SENSOR_Emax = 10800;
     public static final double SENSOR_E_THRES = 1500.0;
 
     public static double AREA_SIZE = 1000.0;
