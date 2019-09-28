@@ -1,7 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="" />
+    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/u-energy/gnu-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/u-energy/gnu-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/u-energy/gnu-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/u-energy/gnu-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/u-energy/gnu-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/n-energy/gnn-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/n-energy/gnn-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/n-energy/gnn-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/n-energy/gnn-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/n-energy/gnn-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/u-energy/gnu-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/u-energy/gnu-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/u-energy/gnu-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/u-energy/gnu-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-medium-p/u-energy/gnu-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/n-energy/nnn-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/n-energy/nnn-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/n-energy/nnn-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/n-energy/nnn-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/n-energy/nnn-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/u-energy/nnu-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/u-energy/nnu-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/u-energy/nnu-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/u-energy/nnu-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-low-p/u-energy/nnu-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/n-energy/nnn-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/n-energy/nnn-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/n-energy/nnn-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/n-energy/nnn-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/n-energy/nnn-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/u-energy/nnu-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/u-energy/nnu-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/u-energy/nnu-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/u-energy/nnu-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/n-p/n-medium-p/u-energy/nnu-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/n-energy/nun-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/n-energy/nun-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/n-energy/nun-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/n-energy/nun-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/n-energy/nun-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/u-energy/nuu-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/u-energy/nuu-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/u-energy/nuu-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/u-energy/nuu-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/n-location/u-p/u-energy/nuu-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/n-energy/unn-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/n-energy/unn-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/n-energy/unn-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/n-energy/unn-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/n-energy/unn-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/u-energy/unu-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/u-energy/unu-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/u-energy/unu-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/u-energy/unu-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-low-p/u-energy/unu-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/n-energy/unn-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/n-energy/unn-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/n-energy/unn-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/n-energy/unn-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/n-energy/unn-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/u-energy/unu-06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/u-energy/unu-07" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/u-energy/unu-08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/u-energy/unu-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/n-p/n-medium-p/u-energy/unu-10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/n-energy/uun-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/n-energy/uun-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/n-energy/uun-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/n-energy/uun-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/n-energy/uun-05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/u-energy/uuu-01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/u-energy/uuu-02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/u-energy/uuu-03" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/u-energy/uuu-04" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/DataPlus/u-location/u-p/u-energy/uuu-05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,19 +101,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="49" column="151" selection-start-line="49" selection-start-column="151" selection-end-line="49" selection-end-column="151" />
+            <state relative-caret-position="191">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -114,8 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/test.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Experiment/Experimentv2/Scenario4.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Experiment/Experimentv2/Scenario3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/StandardizeFileName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" />
       </list>
     </option>
@@ -143,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +248,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,6 +286,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -193,6 +298,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
@@ -203,6 +311,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
@@ -214,6 +325,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
+              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
+              <item name="GA" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
+              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
@@ -226,6 +355,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
@@ -239,13 +371,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="GAUtils" type="462c0819:PsiDirectoryNode" />
               <item name="Operators" type="462c0819:PsiDirectoryNode" />
               <item name="Implemented" type="462c0819:PsiDirectoryNode" />
-              <item name="Crossover" type="462c0819:PsiDirectoryNode" />
+              <item name="Fitness" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -253,90 +388,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hust" type="462c0819:PsiDirectoryNode" />
+              <item name="msolab" type="462c0819:PsiDirectoryNode" />
               <item name="newmodel" type="462c0819:PsiDirectoryNode" />
               <item name="GA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="GA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperimentAll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="GA" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Device" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperimentAll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Experimentv2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
               <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -346,17 +402,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569302846544" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569660497888" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -365,13 +431,6 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/Data7/Normal_distribution_energy/Low_energy/normal_distribution_location" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data/Grid" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Result/ResultINMA/Scenario3" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
-      <recent name="$PROJECT_DIR$/src/main/resources/InputP2/sit1" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -381,6 +440,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Data5" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Data5/Grid" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Data1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Data7/Normal_distribution_energy/Low_energy/normal_distribution_location" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Grid" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Result/ResultINMA/Scenario3" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
+      <recent name="$PROJECT_DIR$/src/main/resources/InputP2/sit1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -543,8 +609,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28026533" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28689885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -553,7 +620,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4754441" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26959246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35945663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,7 +628,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3260188" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32497388" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -669,49 +736,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/he-n20-far-r.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Population.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/Experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/Individual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/GAFileIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/NaturalSelection/NormalNaturalSelection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -856,9 +880,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data7s/Grid/gnn_01.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data7/Grid/grid-n200-far-result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data7/Grid/grid-n200-far-result.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data7/Uniform_distribution_energy/normal_distribution_location/nnu_10">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -930,17 +952,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result7/Grid/gnu_03">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="49" column="151" selection-start-line="49" selection-start-column="151" selection-end-line="49" selection-end-column="151" />
-        </state>
+        <state relative-caret-position="-1085" />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Result7/Grid/gnu_01">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="384">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/DataPlus/g-location/n-p/n-low-p/n-energy/gnn-01">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Algorithm/GAUtils/Operators/Implemented/Fitness/Fitness8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ResultPlusV=2/g-location/n-p/n-low-p/n-energy/gnn-03">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
         </state>
       </provider>
     </entry>
