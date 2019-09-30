@@ -28,17 +28,19 @@ public class INMAFileIO {
 
         sensorList.add(null);
         while (scanner.hasNextLine()){
-            try{
-                double x = scanner.nextDouble();
-                double y = scanner.nextDouble();
-                double p = scanner.nextDouble();
-                double e = scanner.nextDouble();
+            String[] lineArr = scanner.nextLine().split(" ");
+            if(lineArr.length > 1){
+                double x = Double.parseDouble(lineArr[0]);
+                double y = Double.parseDouble(lineArr[1]);
+                double p = Double.parseDouble(lineArr[2]);
+                double e = Double.parseDouble(lineArr[3]);
 
                 data.add(new Pair(x, y));
                 Factors.NUM_OF_SENSORS ++;
                 sensorList.add(new Sensor(Factors.NUM_OF_SENSORS, e));
                 Factors.REMAINING_ENERGIES.add(e);
-            } catch (Exception e){
+            } else {
+                Factors.DURING = Double.parseDouble(lineArr[0]);
                 System.out.println("EOF reached!");
                 break;
             }
