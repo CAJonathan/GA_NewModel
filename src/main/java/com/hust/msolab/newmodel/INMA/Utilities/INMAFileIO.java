@@ -40,6 +40,7 @@ public class INMAFileIO {
                 sensorList.add(new Sensor(Factors.NUM_OF_SENSORS, e));
                 Factors.REMAINING_ENERGIES.add(e);
             } else {
+                lineArr = scanner.nextLine().split(" ");
                 Factors.DURING = Double.parseDouble(lineArr[0]);
                 System.out.println("EOF reached!");
                 break;
