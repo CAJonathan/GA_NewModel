@@ -61,15 +61,16 @@ public class INMAFileIO {
     }
 
     public void output(List<Integer> schedule, int numOfDeath, double executionTime, String outputFilePath) throws IOException{
-        File resultFile = new File(outputFilePath);
-        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, false));
+        File resultFile = new File("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/INMA-Data-smallset/SummaryV=15.txt");
+        BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
 
-        writer.write("Schedule:");
-        for(Integer sensor : schedule){
-            writer.write(sensor + " ");
-        }
-        writer.write("\nNumber of Deaths: " + numOfDeath);
-        writer.write("\nExecution time: " + executionTime);
+//        writer.write("Schedule:");
+//        for(Integer sensor : schedule){
+//            writer.write(sensor + " ");
+//        }
+        String[] fileNameArr = outputFilePath.split("/");
+        String fileName = fileNameArr[fileNameArr.length - 1];
+        writer.write("Number of Deaths: " + numOfDeath + " on file: " + fileName + "\n");
 
         writer.close();
     }
