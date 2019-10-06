@@ -1,3 +1,0 @@
-Schedule:4 21 30 24 19 
-Number of Deaths: 0
-Execution time: 0.047498

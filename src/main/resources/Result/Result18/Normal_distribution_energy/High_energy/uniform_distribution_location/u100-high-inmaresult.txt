@@ -1,3 +1,0 @@
-Schedule:82 99 39 53 57 79 83 26 
-Number of Deaths: 9
-Execution time: 0.027282

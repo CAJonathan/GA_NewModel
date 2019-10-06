@@ -1,8 +1,0 @@
-20 4 16 14 18 2 7 12 3 13 19 17 15 10 5 9 11 8 6 1 
-Best fitness: 2.244 3 7 16 15 20 10 5 9 17 19 13 2 14 8 12 18 11 6 1 
-Alpha: 0.50
-K: 0.01
-Crossover probability: 0.50
-Mutation probability: 0.10
-Change mutation operator probability 1: 0.15
-Change mutation operator probability 2: 0.15
