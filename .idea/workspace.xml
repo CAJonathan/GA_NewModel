@@ -20,19 +20,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+            <state relative-caret-position="403">
+              <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen3/guu-07.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ResultICC/Sen4/gnu-01-result.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -279,6 +289,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="DataICC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="DataICC" type="462c0819:PsiDirectoryNode" />
+              <item name="Sen3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="ResultICC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -301,7 +328,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570551745636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570552352426" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -321,11 +348,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/DataICC" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle1" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle3" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -614,32 +641,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-04" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/n-energy/gnn-06" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/u-energy/gnu-06" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/u-energy/gnu-07" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/u-energy/gnu-10" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Framework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Device/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-01" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-03" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-05" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/n-energy/gnn-01" />
@@ -725,9 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-01.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -742,22 +740,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ResultICC/Sen4/gnu-06-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-07.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-06.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-05.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-04.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-03.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-02.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-01.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ResultICC/Sen4/gnu-01-result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="61" column="47" lean-forward="true" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen3/guu-07.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
