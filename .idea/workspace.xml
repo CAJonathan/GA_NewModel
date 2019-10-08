@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=10/n-low-p/gnu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=10/n-medium-p/gnu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=10/u-p/guu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=10/u-p/guu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=15/n-low-p/gnu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=15/n-medium-p/gnu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=15/u-p/guu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=15/u-p/guu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=5/n-low-p/gnu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=5/n-medium-p/gnu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=5/u-p/guu-01-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/ResultU=5/u-p/guu-02-result.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Data/Sumary-U=5-inma.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Factors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/GA/Utilities/Factors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.class" afterDir="false" />
-    </list>
+    <list default="true" id="44a4d61a-bf40-40de-b381-98a3de36c4c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,33 +20,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Experiment/ExperimentAll/ExperimentAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="63" column="153" selection-start-line="63" selection-start-column="153" selection-end-line="63" selection-end-column="153" />
+            <state relative-caret-position="103">
+              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Sumary-U=15-inma.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -155,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/Data/Data/g-location/n-low-p/n-energy/gnn-01.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/Sumary-U-inma.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/Data/Sumary-U=5-inma.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java" />
       </list>
     </option>
   </component>
@@ -304,58 +271,6 @@
               <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="msolab" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="msolab" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="msolab" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="ExperimentAll" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hust" type="462c0819:PsiDirectoryNode" />
-              <item name="msolab" type="462c0819:PsiDirectoryNode" />
-              <item name="newmodel" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GA_NewModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,7 +279,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultICC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GA_NewModel" type="b2602c69:ProjectViewProjectNode" />
@@ -372,8 +287,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="INMA-Data-U" type="462c0819:PsiDirectoryNode" />
+              <item name="ResultICC" type="462c0819:PsiDirectoryNode" />
+              <item name="Sen4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +301,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570550266808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570551745636" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -395,22 +310,22 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle1" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle3" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle2" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/Data" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle2" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data7/Normal_distribution_energy/Low_energy/normal_distribution_location" />
       <recent name="$PROJECT_DIR$/src/main/resources/Data/Grid" />
       <recent name="$PROJECT_DIR$/src/main/resources/Result/ResultINMA/Scenario3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle1" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle3" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Data/Cycle2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -572,9 +487,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="855" y="142" width="924" height="984" extended-state="0" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.81093395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40353787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,7 +506,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35822636" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32079414" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -699,8 +614,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Cycle2/INMA-DataPlusV=5/g-location/n-p/n-low-p/n-energy/gnn-03" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-02" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-low-p/u-energy/gnu-04" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/n-energy/gnn-06" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Result/a/g-location/n-p/n-medium-p/u-energy/gnu-06" />
@@ -772,13 +685,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data/g-location/n-low-p/n-energy/gnn-01.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Data/g-location/n-medium-p/n-energy/gnn-04.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -811,26 +717,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/Sumary-U=10-inma.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/INMA-Data-U/Sumary-U=10-inma.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Sumary-U=15-inma.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Experiment/ExperimentAll/ExperimentAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/DataICC/Sen4/gnu-01.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Utilities/INMAFileIO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,8 +735,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Data/Sumary-U=15-inma.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/INMA/Experiment/ExperimentAll/ExperimentAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Utilities/Factors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ResultICC/Sen4/gnu-06-result.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hust/msolab/newmodel/GA/Experiment/ExperimentAll/ExperimentAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
