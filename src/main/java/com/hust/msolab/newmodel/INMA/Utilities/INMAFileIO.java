@@ -61,7 +61,7 @@ public class INMAFileIO {
     }
 
     public void output(List<Integer> schedule, int numOfDeath, double executionTime, String outputFilePath) throws IOException{
-        File resultFile = new File("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/INMA-Data-smallset/SummaryV=15.txt");
+        File resultFile = new File("/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/Data/Sumary-U=15-inma.txt");
         BufferedWriter writer = new BufferedWriter(new FileWriter(resultFile, true));
 
 //        writer.write("Schedule:");

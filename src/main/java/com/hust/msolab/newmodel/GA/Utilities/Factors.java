@@ -46,8 +46,8 @@ public class Factors {
     public static int GA_CHOSEN_PARENTS_SELECTION_FUNCTION = 3;     // values: 1, 2, 3
 
     // Choosing data file for all data experiment
-    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/DataVer2";
-    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/ResultU=15";
+    public static String INPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/DataICC/Sen4";
+    public static String OUTPUT_FOLDER = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/ResultICC/Sen4";
 
     // Choosing data file for single experiment
     public static String INPUT_FILE_PATH = "/home/dongocson/Documents/Work/Work/Document/LearningProgram/Project2/GA_NewModel/src/main/resources/he-n20-far.txt";
@@ -66,11 +66,11 @@ public class Factors {
     // ==================================================Never make any change unless you know exactly what you're going to do==================================================
 
     // Fixed factors in WRSN
-    public static double WCE_V = 15;
-    public static double WCE_U = 10;
+    public static double WCE_V = 5;
+    public static double WCE_U = 15;
     public static double WCE_P_MOVE = 1;
     public static double WCE_Emc = 80000;
-    public static double WCE_CHARGING_RATE = 5;
+    public static double WCE_CHARGING_RATE = 15;
 
     public static double SERVICE_STATION_X = 0;
     public static double SERVICE_STATION_Y = 0;
